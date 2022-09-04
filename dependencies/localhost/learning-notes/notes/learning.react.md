@@ -6,6 +6,10 @@ updated: 1649609397949
 created: 1648190205452
 ---
 
+## Resources
+
+- [React](https://sapient.udemy.com/course/complete-react-developer-zero-to-mastery/)
+
 ## Core fundamentals
 - x jsx, x rerendering, x virtual dom, state, props, components, parent, child, lifecycle, hooks 
 ## to make framework
