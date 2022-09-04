@@ -1,0 +1,13 @@
+version: 1
+imports: []
+schemas:
+  - id: juzo
+    title: juzo
+    parent: root
+    children: 
+      - id: habits
+  - id: habits
+    title: habits
+    parent: juzo
+    template: templates.habits
+    namespace: true
