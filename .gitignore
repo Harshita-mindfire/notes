@@ -5,3 +5,6 @@ seeds
 .next
 pods/service-connections
 .dendron.cache.*
+dependencies/localhost/journal
+*.import.yml
+*.export.yml
