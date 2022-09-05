@@ -29,10 +29,12 @@ workspace:
             fsPath: dependencies/localhost/learning-notes
             selfContained: true
             name: learning-notes
+            sync: sync
         -
             fsPath: dependencies/localhost/mindfire-solutions
             selfContained: true
             name: mindfire-solutions
+            sync: sync
     journal:
         dailyDomain: daily
         name: journal
