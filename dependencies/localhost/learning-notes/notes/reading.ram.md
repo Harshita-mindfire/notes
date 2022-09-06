@@ -22,9 +22,9 @@ P.S. Sita is the best part of novel.
 
 - Dashrath continued, _I blamed you for my defeat. You suffered all your life, and yet you never rebelled. I thought it was because you were weak. `But weak people celebrate when twists of fate hurt their tormentors`. And yet you risked your life to protect me_
 
-- If a tactic has lead to failure, then persisting with it unquesttioningly in the wild hope of a different outcome, is nothing short of insanity?
+- If a tactic has lead to failure, then persisting with it unquesttioningly in the wild hope of a different outcome, is nothing short of insanity.
 
-- Emperor Prithu had spoken of the ideal human archetype of the _aryaputra_, a gentleman, and the _aryaputri_, a lady, a prototypical human partnership of two strong individuals, who didn't compete for exact equality but were complimentart, completing each other. Two souls that were dependent on each other, giving each other purpose; `two halves of a whole`
+- Emperor Prithu had spoken of the ideal human archetype of the _aryaputra_, a gentleman, and the _aryaputri_, a lady, a prototypical human partnership of two strong individuals, who didn't compete for exact equality but were complimentary, completing each other. Two souls that were dependent on each other, giving each other purpose; `two halves of a whole`
 
 ## vocab
 - penury: extreme poverty
