@@ -8,3 +8,4 @@ pods/service-connections
 dependencies/localhost/journal
 *.import.yml
 *.export.yml
+.backup
