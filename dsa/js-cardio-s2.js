@@ -10,7 +10,7 @@
 function longestWord(sent) {
     // remove all punctuation
 
-    const newSent = sent.toLowerCase().match(/[a-z0-9]+/g); // returns and array
+    const newSent = sent.toLowerCase().match(/[a-z0-9]+/g); // returns an array of matched words
 
     // sort the array in descending. (By default sort fn sorts in ascending)
 
@@ -31,7 +31,6 @@ function longestWord(sent) {
 //             longestWordMap[word] = word.length
 //         }
 //     });
-//     console.log("longestWordMap", longestWordMap)
 //     for(word in longestWordMap) {
 //         if(longestWordMap[word] > maxLength) maxLength = longestWordMap[word]
 //     }
@@ -79,4 +78,38 @@ function flattenArray(arrays) {
 
   console.log("flatten array ->", flattenArray([[1, 2], [3, 4], [5, 6], [7]]))
 
-  //ANAGRAM
+// CHALLENGE 4: ANAGRAM
+// Return true if anagram and false if not
+// ex. 'elbow' === 'below'
+// ex. 'Dormitory' === 'dirty room##'
+
+ function isAnagram(str1, str2) {
+    return helperFormatString(str1) === helperFormatString(str2)
+ }
+
+ function helperFormatString(str) {
+    return str.replace(/[^\w]/g, '').toLowerCase().split('').sort().join('')
+ }
+
+ console.log("anagram ->", isAnagram("Elbow", "below"))
+
+
+// CHALLENGE 5: LETTER CHANGES
+// Change every letter of the string to the one that follows it and capitalize the vowels
+// Z should turn to A
+// ex. 'hello there' === 'Ifmmp UIfsf'
+
+ function letterChanges(str) {
+   const newStr = str.toLowerCase().replace(/[a-z]/gi, char => {
+    if(char === 'z' || char === 'Z'){
+        return 'a'
+    }else {
+       return String.fromCharCode(char.charCodeAt() + 1)
+    }
+   })
+  return newStr.replace(/a|e|i|o|u/gi, vowel => vowel.toUpperCase())
+ }
+
+
+ console.log("letter changes ---> ", letterChanges("Hellozz there"))
+

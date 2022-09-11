@@ -50,7 +50,6 @@ console.log("is hello a Palidrome --> ", isPalindromeOutput)
 
 function reverseInt(int) {
 
-    /** using reduce */
     const reverse = int.toString().split('').reverse().join('')
    return parseInt(reverse) * Math.sign(int)
 }
