@@ -9,3 +9,4 @@ dependencies/localhost/journal
 *.import.yml
 *.export.yml
 .backup
+dependencies/localhost/mindfire-solutions
