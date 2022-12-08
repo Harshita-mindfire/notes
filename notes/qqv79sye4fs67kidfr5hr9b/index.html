@@ -1,0 +1,211 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><link rel="icon" href="/favicon.ico"/><title>deleteCmd</title><meta name="robots" content="index,follow"/><meta name="googlebot" content="index,follow"/><meta name="description" content="Personal Knowledge Space"/><meta property="og:title" content="deleteCmd"/><meta property="og:description" content="Personal Knowledge Space"/><meta property="og:url" content="localhost:3000/notes/qqv79sye4fs67kidfr5hr9b/"/><meta property="og:type" content="article"/><meta property="article:published_time" content="9/9/2022"/><meta property="article:modified_time" content="9/9/2022"/><link rel="canonical" href="localhost:3000/notes/qqv79sye4fs67kidfr5hr9b/"/><meta name="next-head-count" content="14"/><link rel="preload" href="/_next/static/css/8e7b7e4bce421c0a.css" as="style"/><link rel="stylesheet" href="/_next/static/css/8e7b7e4bce421c0a.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script><script src="/_next/static/chunks/webpack-3d209faeb64f2f97.js" defer=""></script><script src="/_next/static/chunks/framework-28c999baf2863c3d.js" defer=""></script><script src="/_next/static/chunks/main-104451f3d1a5c4bc.js" defer=""></script><script src="/_next/static/chunks/pages/_app-6b338472289fe290.js" defer=""></script><script src="/_next/static/chunks/935-4dee79e80b8641c6.js" defer=""></script><script src="/_next/static/chunks/6-50972def09142ee2.js" defer=""></script><script src="/_next/static/chunks/pages/notes/%5Bid%5D-78d472fa3b924116.js" defer=""></script><script src="/_next/static/-dbZWWk-0enTj9u4qZGG5/_buildManifest.js" defer=""></script><script src="/_next/static/-dbZWWk-0enTj9u4qZGG5/_ssgManifest.js" defer=""></script></head><body><div id="__next" data-reactroot=""><section class="ant-layout" style="width:100%;min-height:100%"><header class="ant-layout-header" style="position:fixed;isolation:isolate;z-index:1;width:100%;border-bottom:1px solid #d4dadf;height:64px;padding:0 24px 0 2px"><div class="ant-row ant-row-center" style="max-width:992px;justify-content:space-between;margin:0 auto"><div style="display:flex" class="ant-col ant-col-xs-20 ant-col-sm-4"></div><div class="ant-col gutter-row ant-col-xs-0 ant-col-sm-20 ant-col-md-20 ant-col-lg-19"><div class="ant-select ant-select-lg ant-select-auto-complete ant-select-single ant-select-allow-clear ant-select-show-search" style="width:100%"><div class="ant-select-selector"><span class="ant-select-selection-search"><input type="search" autoComplete="off" class="ant-select-selection-search-input" role="combobox" aria-haspopup="listbox" aria-owns="undefined_list" aria-autocomplete="list" aria-controls="undefined_list" aria-activedescendant="undefined_list_0" value=""/></span><span class="ant-select-selection-placeholder">For full text search please use the &#x27;?&#x27; prefix. e.g. ? Onboarding</span></div></div></div><div style="display:none;align-items:center;justify-content:center" class="ant-col ant-col-xs-4 ant-col-sm-4 ant-col-md-0 ant-col-lg-0"><span role="img" aria-label="menu" style="font-size:24px" tabindex="-1" class="anticon anticon-menu"><svg viewBox="64 64 896 896" focusable="false" data-icon="menu" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z"></path></svg></span></div></div></header><section class="ant-layout" style="margin-top:64px;display:flex;flex-direction:row"><div class="site-layout-sidebar" style="flex:0 0 auto;width:calc(max((100% - 992px) / 2, 0px) + 200px);min-width:200px;padding-left:calc((100% - 992px) / 2)"><aside class="ant-layout-sider ant-layout-sider-dark" style="position:fixed;overflow:auto;height:calc(100vh - 64px);background-color:transparent;flex:0 0 200px;max-width:200px;min-width:200px;width:200px"><div class="ant-layout-sider-children"></div></aside></div><main class="ant-layout-content side-layout-main" style="max-width:1200px;min-width:0;display:block"><div style="padding:0 24px"><div class="main-content" role="main"><div class="ant-row"><div class="ant-col ant-col-24"><div class="ant-row" style="margin-left:-10px;margin-right:-10px"><div style="padding-left:10px;padding-right:10px" class="ant-col ant-col-xs-24 ant-col-md-18"><div><h1 id="deletecmd"><a aria-hidden="true" class="anchor-heading icon-link" href="#deletecmd"></a>deleteCmd</h1>
+<p>import {
+DLink,
+DVault,
+EngineDeletePayload,
+normalizeUnixPath,
+NoteProps,
+NoteUtils,
+Position,
+ReducedDEngine,
+VaultUtils,
+} from "@dendronhq/common-all";
+import { RemarkUtils } from "@dendronhq/unified";
+import _ from "lodash";
+import _md from "markdown-it";
+import { inject, injectable } from "tsyringe";
+import {
+commands,
+TextEditor,
+Uri,
+ViewColumn,
+window,
+workspace,
+} from "vscode";
+import { URI, Utils } from "vscode-uri";
+import { DENDRON_COMMANDS } from "../../constants";
+import { isPathInWorkspace } from "../utils/isPathInWorkspace";</p>
+<p>type CommandOpts = any;</p>
+<p>type CommandOutput = EngineDeletePayload | void;
+export type { CommandOutput as DeleteNodeCommandOutput };</p>
+<p>// function formatDeletedMsg({
+//   fsPath,
+//   vault,
+// }: {
+//   fsPath: string;
+//   vault: DVault;
+// }) {
+//   return <code>${Utils.basename(Uri.file(fsPath))} (${VaultUtils.getName( //     vault //   )}) deleted</code>;
+// }</p>
+<p><a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">@injectable (Private)</a>()
+export class DeleteCmd {
+constructor(
+<a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">@inject (Private)</a>("wsRoot") private wsRoot: URI,
+<a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">@inject (Private)</a>("ReducedDEngine")
+private engine: ReducedDEngine,
+<a title="Private" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank" class="private">@inject (Private)</a>("vaults") private vaults: DVault[]
+) {}</p>
+<p>  key = DENDRON_COMMANDS.DELETE.key;</p>
+<p>  private async getBacklinkFrontmatterLineOffset(opts: { link: DLink }) {
+const { link } = opts;
+const vault = VaultUtils.getVaultByName({
+vaults: this.vaults,
+vname: link.from.vaultName as string,
+}) as DVault;
+const noteWithLink = (
+await this.engine.findNotes({ fname: link.from.fname, vault })
+)[0];
+const fsPath = NoteUtils.getFullPath({
+note: noteWithLink,
+wsRoot: this.wsRoot.fsPath,
+});
+console.log("fsPath<strong>**</strong>", fsPath);
+const fileContent = workspace.fs.readFile(Uri.file(fsPath)).toString();
+const nodePosition = RemarkUtils.getNodePositionPastFrontmatter(
+fileContent
+) as Position;</p>
+<pre><code>return nodePosition?.end.line;
+</code></pre>
+<p>  }
+/**</p>
+<ul>
+<li>
+<p>When Delete Command is ran from explorer menu, it gets Uri as args
+*/
+private isUriArgs(opts: CommandOpts) {
+return !_.isEmpty(opts) &#x26;&#x26; opts.fsPath;
+}</p>
+<p>  private async deleteNote(params: {
+note: NoteProps;
+opts: CommandOpts;
+ctx: string;
+}) {
+const { note, opts } = params;
+const backlinks = note.links.filter((link) => link.type === "backlink");
+let title;
+if (backlinks.length === 0) {
+// no need to show preview a simple
+title = <code>Delete note ${note.fname}?</code>;
+} else {
+await this.showNoteDeletePreview(note, backlinks);
+title = <code>${note.fname} has backlinks. Delete note?</code>;
+}</p>
+<pre><code>const shouldProceed = await this.promptConfirmation(title, opts?.noConfirm);
+if (!shouldProceed) {
+  window.showInformationMessage("Cancelled");
+  return;
+}
+
+// If Delete note preview is open, close it first
+if (backlinks.length !== 0) {
+  await commands.executeCommand("workbench.action.closeActiveEditor");
+}
+
+const out = (await this.engine.deleteNote(note.id)) as EngineDeletePayload;
+if (out.error) {
+  return;
+}
+// window.showInformationMessage(
+//   formatDeletedMsg({ fsPath: note.fname, vault: note.vault })
+// );
+await commands.executeCommand("workbench.action.closeActiveEditor");
+return out;
+</code></pre>
+<p>  }</p>
+<p>  async showNoteDeletePreview(note: NoteProps, backlinks: DLink[]) {
+let content = [
+"# Delete Node Preview",
+"<code>",       `node type: note`,       "",       `# of backlinks to this note: ${backlinks.length}`,       "</code>",
+"## Broken links after deletion",
+<code>These links will be broken after deleting **${note.fname}**</code>,
+"",
+<code>Make sure to convert the broken links listed below accordingly.</code>,
+"",
+];</p>
+<pre><code>_.forEach(_.sortBy(backlinks, ["from.vaultName"]), async (backlink) => {
+  const fmLineOffset = await this.getBacklinkFrontmatterLineOffset({
+    link: backlink,
+  });
+  const entry = [
+    `- in **${backlink.from.vaultName}/${backlink.from.fname}**`,
+    `  - line *${backlink.position!.start.line + fmLineOffset}* column *${
+      backlink.position?.start.column
+    }*`,
+    `  - alias: \`${backlink.alias ? backlink.alias : "None"}\``,
+  ].join("\n");
+  content = content.concat(entry);
+});
+
+const panel = window.createWebviewPanel(
+  "deleteNodeNoteDeletePreview",
+  "Note Delete Preview",
+  ViewColumn.One,
+  {}
+);
+panel.webview.html = _md().render(content.join("\n"));
+return content.join("\n");
+</code></pre>
+<p>  }</p>
+<p>  async promptConfirmation(title: string, noConfirm?: boolean) {
+if (noConfirm) return true;
+const options = ["Proceed", "Cancel"];
+const resp = await window.showQuickPick(options, {
+title,
+placeHolder: "Proceed",
+ignoreFocusOut: true,
+});
+return resp === "Proceed";
+}</p>
+<p>  async sanityCheck(opts?: CommandOpts) {
+if (<em>.isUndefined(window.activeTextEditor) &#x26;&#x26; </em>.isEmpty(opts)) {
+return "No note currently open, and no note selected to open.";
+}
+return;
+}</p>
+<p>  async run(opts?: CommandOpts): Promise<commandoutput> {
+const ctx = "DeleteNoteCommand";
+if (NoteUtils.isNoteProps(opts)) {
+const out = this.deleteNote({ note: opts, opts, ctx });
+return out;
+} else {
+const editor = window.activeTextEditor as TextEditor;
+const path = this.isUriArgs(opts) ? opts : editor.document.uri;
+const mode = path.fsPath.endsWith(".md") ? "note" : "schema";
+const trimEnd = mode === "note" ? ".md" : ".schema.yml";
+const fname = _.trimEnd(Utils.basename(path), trimEnd);
+if (mode === "note") {
+const vault = this.getVaultForOpenEditor(path.fsPath);
+const note = (await this.engine.findNotes({ fname, vault }))[0];
+const out = await this.deleteNote({ note, opts, ctx });
+return out;
+} else {
+window.showInformationMessage("schema delete not implemented yet");
+}
+}
+}
+getVaultForOpenEditor(fsPath: any) {
+let vault: DVault;
+const activeDocument = window.activeTextEditor?.document;
+const fpath = fsPath || activeDocument?.uri.fsPath;
+console.log("fpath", fpath, normalizeUnixPath(fpath));
+if (
+fpath &#x26;&#x26;
+isPathInWorkspace({
+wsRoot: this.wsRoot,
+vaults: this.vaults,
+fsPath: activeDocument?.uri!,
+})
+) {
+vault = VaultUtils.getVaultByFilePath({
+vaults: this.vaults,
+wsRoot: normalizeUnixPath(this.wsRoot.fsPath),
+fsPath: normalizeUnixPath(fpath),
+});
+} else {
+vault = this.vaults[0];
+}
+return vault;
+}
+}</commandoutput></p>
+</li>
+</ul></div></div><div style="padding-left:10px;padding-right:10px" class="ant-col ant-col-xs-0 ant-col-md-6"><div><div class=""><div class="ant-anchor-wrapper dendron-toc" style="max-height:calc(100vh - 64px);z-index:1"><div class="ant-anchor"><div class="ant-anchor-ink"><span class="ant-anchor-ink-ball"></span></div></div></div></div></div></div></div></div></div></div></div><div class="ant-divider ant-divider-horizontal" role="separator"></div><footer class="ant-layout-footer" style="padding:0 24px 24px"></footer></main></section></section></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"note":{"id":"qqv79sye4fs67kidfr5hr9b","title":"deleteCmd","desc":"","updated":1662721055474,"created":1662721047003,"custom":{},"fname":"dendron.wip.codefile.deleteCmd","type":"note","vault":{"fsPath":"dependencies/localhost/learning-notes","selfContained":true,"name":"learning-notes","sync":"sync"},"contentHash":"8487a14c78f05cf0116981d8290d8e82","links":[{"type":"wiki","from":{"fname":"dendron.wip.codefile.deleteCmd","id":"qqv79sye4fs67kidfr5hr9b","vaultName":"learning-notes"},"value":"user.injectable","alias":"@injectable","position":{"start":{"line":45,"column":1,"offset":936},"end":{"line":45,"column":12,"offset":947},"indent":[]},"xvault":false,"to":{"fname":"user.injectable"}},{"type":"wiki","from":{"fname":"dendron.wip.codefile.deleteCmd","id":"qqv79sye4fs67kidfr5hr9b","vaultName":"learning-notes"},"value":"user.inject","alias":"@inject","position":{"start":{"line":48,"column":5,"offset":994},"end":{"line":48,"column":12,"offset":1001},"indent":[]},"xvault":false,"to":{"fname":"user.inject"}},{"type":"wiki","from":{"fname":"dendron.wip.codefile.deleteCmd","id":"qqv79sye4fs67kidfr5hr9b","vaultName":"learning-notes"},"value":"user.inject","alias":"@inject","position":{"start":{"line":49,"column":5,"offset":1037},"end":{"line":49,"column":12,"offset":1044},"indent":[]},"xvault":false,"to":{"fname":"user.inject"}},{"type":"wiki","from":{"fname":"dendron.wip.codefile.deleteCmd","id":"qqv79sye4fs67kidfr5hr9b","vaultName":"learning-notes"},"value":"user.inject","alias":"@inject","position":{"start":{"line":51,"column":5,"offset":1103},"end":{"line":51,"column":12,"offset":1110},"indent":[]},"xvault":false,"to":{"fname":"user.inject"}}],"anchors":{},"children":[],"parent":"te3qp2uqqudqkc2q7fvnah8","data":{}},"body":"\u003ch1 id=\"deletecmd\"\u003e\u003ca aria-hidden=\"true\" class=\"anchor-heading icon-link\" href=\"#deletecmd\"\u003e\u003c/a\u003edeleteCmd\u003c/h1\u003e\n\u003cp\u003eimport {\nDLink,\nDVault,\nEngineDeletePayload,\nnormalizeUnixPath,\nNoteProps,\nNoteUtils,\nPosition,\nReducedDEngine,\nVaultUtils,\n} from \"@dendronhq/common-all\";\nimport { RemarkUtils } from \"@dendronhq/unified\";\nimport _ from \"lodash\";\nimport _md from \"markdown-it\";\nimport { inject, injectable } from \"tsyringe\";\nimport {\ncommands,\nTextEditor,\nUri,\nViewColumn,\nwindow,\nworkspace,\n} from \"vscode\";\nimport { URI, Utils } from \"vscode-uri\";\nimport { DENDRON_COMMANDS } from \"../../constants\";\nimport { isPathInWorkspace } from \"../utils/isPathInWorkspace\";\u003c/p\u003e\n\u003cp\u003etype CommandOpts = any;\u003c/p\u003e\n\u003cp\u003etype CommandOutput = EngineDeletePayload | void;\nexport type { CommandOutput as DeleteNodeCommandOutput };\u003c/p\u003e\n\u003cp\u003e// function formatDeletedMsg({\n//   fsPath,\n//   vault,\n// }: {\n//   fsPath: string;\n//   vault: DVault;\n// }) {\n//   return \u003ccode\u003e${Utils.basename(Uri.file(fsPath))} (${VaultUtils.getName( //     vault //   )}) deleted\u003c/code\u003e;\n// }\u003c/p\u003e\n\u003cp\u003e\u003ca title=\"Private\" href=\"https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html\" target=\"_blank\" class=\"private\"\u003e@injectable (Private)\u003c/a\u003e()\nexport class DeleteCmd {\nconstructor(\n\u003ca title=\"Private\" href=\"https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html\" target=\"_blank\" class=\"private\"\u003e@inject (Private)\u003c/a\u003e(\"wsRoot\") private wsRoot: URI,\n\u003ca title=\"Private\" href=\"https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html\" target=\"_blank\" class=\"private\"\u003e@inject (Private)\u003c/a\u003e(\"ReducedDEngine\")\nprivate engine: ReducedDEngine,\n\u003ca title=\"Private\" href=\"https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html\" target=\"_blank\" class=\"private\"\u003e@inject (Private)\u003c/a\u003e(\"vaults\") private vaults: DVault[]\n) {}\u003c/p\u003e\n\u003cp\u003e  key = DENDRON_COMMANDS.DELETE.key;\u003c/p\u003e\n\u003cp\u003e  private async getBacklinkFrontmatterLineOffset(opts: { link: DLink }) {\nconst { link } = opts;\nconst vault = VaultUtils.getVaultByName({\nvaults: this.vaults,\nvname: link.from.vaultName as string,\n}) as DVault;\nconst noteWithLink = (\nawait this.engine.findNotes({ fname: link.from.fname, vault })\n)[0];\nconst fsPath = NoteUtils.getFullPath({\nnote: noteWithLink,\nwsRoot: this.wsRoot.fsPath,\n});\nconsole.log(\"fsPath\u003cstrong\u003e**\u003c/strong\u003e\", fsPath);\nconst fileContent = workspace.fs.readFile(Uri.file(fsPath)).toString();\nconst nodePosition = RemarkUtils.getNodePositionPastFrontmatter(\nfileContent\n) as Position;\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003ereturn nodePosition?.end.line;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e  }\n/**\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003eWhen Delete Command is ran from explorer menu, it gets Uri as args\n*/\nprivate isUriArgs(opts: CommandOpts) {\nreturn !_.isEmpty(opts) \u0026#x26;\u0026#x26; opts.fsPath;\n}\u003c/p\u003e\n\u003cp\u003e  private async deleteNote(params: {\nnote: NoteProps;\nopts: CommandOpts;\nctx: string;\n}) {\nconst { note, opts } = params;\nconst backlinks = note.links.filter((link) =\u003e link.type === \"backlink\");\nlet title;\nif (backlinks.length === 0) {\n// no need to show preview a simple\ntitle = \u003ccode\u003eDelete note ${note.fname}?\u003c/code\u003e;\n} else {\nawait this.showNoteDeletePreview(note, backlinks);\ntitle = \u003ccode\u003e${note.fname} has backlinks. Delete note?\u003c/code\u003e;\n}\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003econst shouldProceed = await this.promptConfirmation(title, opts?.noConfirm);\nif (!shouldProceed) {\n  window.showInformationMessage(\"Cancelled\");\n  return;\n}\n\n// If Delete note preview is open, close it first\nif (backlinks.length !== 0) {\n  await commands.executeCommand(\"workbench.action.closeActiveEditor\");\n}\n\nconst out = (await this.engine.deleteNote(note.id)) as EngineDeletePayload;\nif (out.error) {\n  return;\n}\n// window.showInformationMessage(\n//   formatDeletedMsg({ fsPath: note.fname, vault: note.vault })\n// );\nawait commands.executeCommand(\"workbench.action.closeActiveEditor\");\nreturn out;\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e  }\u003c/p\u003e\n\u003cp\u003e  async showNoteDeletePreview(note: NoteProps, backlinks: DLink[]) {\nlet content = [\n\"# Delete Node Preview\",\n\"\u003ccode\u003e\",       `node type: note`,       \"\",       `# of backlinks to this note: ${backlinks.length}`,       \"\u003c/code\u003e\",\n\"## Broken links after deletion\",\n\u003ccode\u003eThese links will be broken after deleting **${note.fname}**\u003c/code\u003e,\n\"\",\n\u003ccode\u003eMake sure to convert the broken links listed below accordingly.\u003c/code\u003e,\n\"\",\n];\u003c/p\u003e\n\u003cpre\u003e\u003ccode\u003e_.forEach(_.sortBy(backlinks, [\"from.vaultName\"]), async (backlink) =\u003e {\n  const fmLineOffset = await this.getBacklinkFrontmatterLineOffset({\n    link: backlink,\n  });\n  const entry = [\n    `- in **${backlink.from.vaultName}/${backlink.from.fname}**`,\n    `  - line *${backlink.position!.start.line + fmLineOffset}* column *${\n      backlink.position?.start.column\n    }*`,\n    `  - alias: \\`${backlink.alias ? backlink.alias : \"None\"}\\``,\n  ].join(\"\\n\");\n  content = content.concat(entry);\n});\n\nconst panel = window.createWebviewPanel(\n  \"deleteNodeNoteDeletePreview\",\n  \"Note Delete Preview\",\n  ViewColumn.One,\n  {}\n);\npanel.webview.html = _md().render(content.join(\"\\n\"));\nreturn content.join(\"\\n\");\n\u003c/code\u003e\u003c/pre\u003e\n\u003cp\u003e  }\u003c/p\u003e\n\u003cp\u003e  async promptConfirmation(title: string, noConfirm?: boolean) {\nif (noConfirm) return true;\nconst options = [\"Proceed\", \"Cancel\"];\nconst resp = await window.showQuickPick(options, {\ntitle,\nplaceHolder: \"Proceed\",\nignoreFocusOut: true,\n});\nreturn resp === \"Proceed\";\n}\u003c/p\u003e\n\u003cp\u003e  async sanityCheck(opts?: CommandOpts) {\nif (\u003cem\u003e.isUndefined(window.activeTextEditor) \u0026#x26;\u0026#x26; \u003c/em\u003e.isEmpty(opts)) {\nreturn \"No note currently open, and no note selected to open.\";\n}\nreturn;\n}\u003c/p\u003e\n\u003cp\u003e  async run(opts?: CommandOpts): Promise\u003ccommandoutput\u003e {\nconst ctx = \"DeleteNoteCommand\";\nif (NoteUtils.isNoteProps(opts)) {\nconst out = this.deleteNote({ note: opts, opts, ctx });\nreturn out;\n} else {\nconst editor = window.activeTextEditor as TextEditor;\nconst path = this.isUriArgs(opts) ? opts : editor.document.uri;\nconst mode = path.fsPath.endsWith(\".md\") ? \"note\" : \"schema\";\nconst trimEnd = mode === \"note\" ? \".md\" : \".schema.yml\";\nconst fname = _.trimEnd(Utils.basename(path), trimEnd);\nif (mode === \"note\") {\nconst vault = this.getVaultForOpenEditor(path.fsPath);\nconst note = (await this.engine.findNotes({ fname, vault }))[0];\nconst out = await this.deleteNote({ note, opts, ctx });\nreturn out;\n} else {\nwindow.showInformationMessage(\"schema delete not implemented yet\");\n}\n}\n}\ngetVaultForOpenEditor(fsPath: any) {\nlet vault: DVault;\nconst activeDocument = window.activeTextEditor?.document;\nconst fpath = fsPath || activeDocument?.uri.fsPath;\nconsole.log(\"fpath\", fpath, normalizeUnixPath(fpath));\nif (\nfpath \u0026#x26;\u0026#x26;\nisPathInWorkspace({\nwsRoot: this.wsRoot,\nvaults: this.vaults,\nfsPath: activeDocument?.uri!,\n})\n) {\nvault = VaultUtils.getVaultByFilePath({\nvaults: this.vaults,\nwsRoot: normalizeUnixPath(this.wsRoot.fsPath),\nfsPath: normalizeUnixPath(fpath),\n});\n} else {\nvault = this.vaults[0];\n}\nreturn vault;\n}\n}\u003c/commandoutput\u003e\u003c/p\u003e\n\u003c/li\u003e\n\u003c/ul\u003e","noteIndex":{"id":"dlb5bmx7v8f6otsgongz4vx","title":"Root","desc":"","updated":1655025026733,"created":1648190029829,"custom":{"nav_order":0,"permalink":"/"},"fname":"root","type":"note","vault":{"fsPath":"dependencies/localhost/learning-notes","selfContained":true,"name":"learning-notes","sync":"sync"},"contentHash":"bc178ae9d620304b10fedbadacbc746f","links":[],"anchors":{"learning":{"type":"header","text":"Learning","value":"learning","line":7,"column":0,"depth":1}},"children":["fkhev0yr0bbwd3x499erqqp","trkx8xrg7g2fm023ez4ldqj","5mg2j4msjvokz541h0tdvni","c8csxid3zoghxorepwcrami","twdastnk7qsdzm0wt64i6cz","c31i1fsmoluyjb7iffcjabg","v6w7qcvk7gmeht0j9xzdtbd","cev4vzt27wi2rjm3znxgwkl","984qz0r52n001q7yxhrh1sm"],"parent":null,"data":{},"body":"# Learning\n\nThis vault contains my study notes\n"},"collectionChildren":null,"customHeadContent":null,"config":{"version":5,"dev":{"enablePreviewV2":true,"enableExportPodV2":true,"enableSelfContainedVaults":true},"commands":{"lookup":{"note":{"selectionMode":"extract","confirmVaultOnCreate":true,"vaultSelectionModeOnCreate":"smart","leaveTrace":false,"bubbleUpCreateNew":true,"fuzzThreshold":0.2}},"randomNote":{},"insertNoteLink":{"aliasMode":"none","enableMultiSelect":false},"insertNoteIndex":{"enableMarker":false},"copyNoteLink":{"aliasMode":"title"},"templateHierarchy":"template"},"workspace":{"vaults":[{"fsPath":"dependencies/localhost/journal","selfContained":true,"name":"journal"},{"fsPath":"dependencies/localhost/learning-notes","selfContained":true,"name":"learning-notes","sync":"sync"},{"fsPath":"dependencies/localhost/mindfire-solutions","selfContained":true,"name":"mindfire-solutions"}],"journal":{"dailyDomain":"daily","name":"journal","dateFormat":"y.MM.dd","addBehavior":"childOfDomain"},"scratch":{"name":"scratch","dateFormat":"y.MM.dd.HHmmss","addBehavior":"asOwnDomain"},"task":{"name":"task","dateFormat":"y.MM.dd","addBehavior":"asOwnDomain","statusSymbols":{"":" ","wip":"w","done":"x","assigned":"a","moved":"m","blocked":"b","delegated":"l","dropped":"d","pending":"y"},"taskCompleteStatus":["done","x"],"prioritySymbols":{"H":"high","M":"medium","L":"low"},"todoIntegration":false,"createTaskSelectionType":"selection2link"},"graph":{"zoomSpeed":1,"createStub":false},"enableAutoCreateOnDefinition":false,"enableXVaultWikiLink":false,"enableRemoteVaultInit":true,"enableUserTags":true,"enableHashTags":true,"workspaceVaultSyncMode":"noCommit","enableAutoFoldFrontmatter":false,"enableEditorDecorations":true,"maxPreviewsCached":10,"maxNoteLength":204800,"enableFullHierarchyNoteTitle":false,"enableSmartRefs":false},"preview":{"enableFMTitle":true,"enableNoteTitleForLink":true,"enableFrontmatterTags":true,"enableHashesForFMTags":false,"enableMermaid":true,"enablePrettyRefs":true,"enableKatex":true,"automaticallyShowPreview":false},"publishing":{"enableFMTitle":true,"enableNoteTitleForLink":true,"enableMermaid":true,"enablePrettyRefs":true,"enableKatex":true,"copyAssets":true,"siteHierarchies":["root"],"writeStubs":false,"siteRootDir":"docs","seo":{"title":"Dendron","description":"Personal Knowledge Space"},"github":{"enableEditLink":true,"editLinkText":"Edit this page on GitHub","editBranch":"main","editViewMode":"tree"},"enableSiteLastModified":true,"enableFrontmatterTags":true,"enableHashesForFMTags":false,"enableRandomlyColoredTags":true,"enableTaskNotes":true,"enablePrettyLinks":true,"duplicateNoteBehavior":{"action":"useVault","payload":["learning-notes","mindfire-solutions","journal"]},"siteUrl":"localhost:3000","siteFaviconPath":"favicon.ico","siteIndex":"root","searchMode":"lookup"}}},"__N_SSG":true},"page":"/notes/[id]","query":{"id":"qqv79sye4fs67kidfr5hr9b"},"buildId":"-dbZWWk-0enTj9u4qZGG5","isFallback":false,"gsp":true,"scriptLoader":[]}</script></body></html>

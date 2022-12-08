@@ -1,0 +1,2996 @@
+{
+  "notes": {
+    "403": {
+      "vault": {
+        "fsPath": "dependencies/localhost/journal",
+        "selfContained": true,
+        "name": "journal"
+      },
+      "fname": "403",
+      "id": "403",
+      "title": "This page has not yet sprouted",
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670480520936,
+      "created": 1670480520936,
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": null,
+      "data": {}
+    },
+    "dlb5bmx7v8f6otsgongz4vx": {
+      "id": "dlb5bmx7v8f6otsgongz4vx",
+      "title": "Root",
+      "desc": "",
+      "updated": 1655025026733,
+      "created": 1648190029829,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "bc178ae9d620304b10fedbadacbc746f",
+      "links": [],
+      "anchors": {
+        "learning": {
+          "type": "header",
+          "text": "Learning",
+          "value": "learning",
+          "line": 7,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [
+        "fkhev0yr0bbwd3x499erqqp",
+        "trkx8xrg7g2fm023ez4ldqj",
+        "5mg2j4msjvokz541h0tdvni",
+        "c8csxid3zoghxorepwcrami",
+        "twdastnk7qsdzm0wt64i6cz",
+        "c31i1fsmoluyjb7iffcjabg",
+        "v6w7qcvk7gmeht0j9xzdtbd",
+        "cev4vzt27wi2rjm3znxgwkl",
+        "984qz0r52n001q7yxhrh1sm"
+      ],
+      "parent": null,
+      "data": {}
+    },
+    "984qz0r52n001q7yxhrh1sm": {
+      "fname": "dendron",
+      "stub": true,
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670480519765,
+      "created": 1670480519765,
+      "id": "984qz0r52n001q7yxhrh1sm",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "xq7wx7wllpenpg9t6k533ls"
+      ],
+      "parent": "dlb5bmx7v8f6otsgongz4vx",
+      "data": {},
+      "title": "Dendron"
+    },
+    "xq7wx7wllpenpg9t6k533ls": {
+      "fname": "dendron.wip",
+      "stub": true,
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670480519765,
+      "created": 1670480519765,
+      "id": "xq7wx7wllpenpg9t6k533ls",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "te3qp2uqqudqkc2q7fvnah8"
+      ],
+      "parent": "984qz0r52n001q7yxhrh1sm",
+      "data": {},
+      "title": "Wip"
+    },
+    "te3qp2uqqudqkc2q7fvnah8": {
+      "fname": "dendron.wip.codefile",
+      "stub": true,
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670480519765,
+      "created": 1670480519765,
+      "id": "te3qp2uqqudqkc2q7fvnah8",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "qqv79sye4fs67kidfr5hr9b"
+      ],
+      "parent": "xq7wx7wllpenpg9t6k533ls",
+      "data": {},
+      "title": "Codefile"
+    },
+    "qqv79sye4fs67kidfr5hr9b": {
+      "id": "qqv79sye4fs67kidfr5hr9b",
+      "title": "deleteCmd",
+      "desc": "",
+      "updated": 1662721055474,
+      "created": 1662721047003,
+      "custom": {},
+      "fname": "dendron.wip.codefile.deleteCmd",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "8487a14c78f05cf0116981d8290d8e82",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "dendron.wip.codefile.deleteCmd",
+            "id": "qqv79sye4fs67kidfr5hr9b",
+            "vaultName": "learning-notes"
+          },
+          "value": "user.injectable",
+          "alias": "@injectable",
+          "position": {
+            "start": {
+              "line": 45,
+              "column": 1,
+              "offset": 936
+            },
+            "end": {
+              "line": 45,
+              "column": 12,
+              "offset": 947
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.injectable"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "dendron.wip.codefile.deleteCmd",
+            "id": "qqv79sye4fs67kidfr5hr9b",
+            "vaultName": "learning-notes"
+          },
+          "value": "user.inject",
+          "alias": "@inject",
+          "position": {
+            "start": {
+              "line": 48,
+              "column": 5,
+              "offset": 994
+            },
+            "end": {
+              "line": 48,
+              "column": 12,
+              "offset": 1001
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.inject"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "dendron.wip.codefile.deleteCmd",
+            "id": "qqv79sye4fs67kidfr5hr9b",
+            "vaultName": "learning-notes"
+          },
+          "value": "user.inject",
+          "alias": "@inject",
+          "position": {
+            "start": {
+              "line": 49,
+              "column": 5,
+              "offset": 1037
+            },
+            "end": {
+              "line": 49,
+              "column": 12,
+              "offset": 1044
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.inject"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "dendron.wip.codefile.deleteCmd",
+            "id": "qqv79sye4fs67kidfr5hr9b",
+            "vaultName": "learning-notes"
+          },
+          "value": "user.inject",
+          "alias": "@inject",
+          "position": {
+            "start": {
+              "line": 51,
+              "column": 5,
+              "offset": 1103
+            },
+            "end": {
+              "line": 51,
+              "column": 12,
+              "offset": 1110
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.inject"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "te3qp2uqqudqkc2q7fvnah8",
+      "data": {}
+    },
+    "cev4vzt27wi2rjm3znxgwkl": {
+      "fname": "learning",
+      "stub": true,
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670480519759,
+      "created": 1670480519759,
+      "id": "cev4vzt27wi2rjm3znxgwkl",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "spb7nh15wevv5pbksyulihq",
+        "z4sgfhwkw1oec6zns62si5o",
+        "2kl4uby2xz8xsy8o6xupl0t"
+      ],
+      "parent": "dlb5bmx7v8f6otsgongz4vx",
+      "data": {},
+      "title": "Learning"
+    },
+    "2kl4uby2xz8xsy8o6xupl0t": {
+      "fname": "learning.eng",
+      "stub": true,
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670480519765,
+      "created": 1670480519765,
+      "id": "2kl4uby2xz8xsy8o6xupl0t",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "hjgrq91537kuifrh4za6mjn",
+        "i3zo8h6ygp5kt920mjt28vl"
+      ],
+      "parent": "cev4vzt27wi2rjm3znxgwkl",
+      "data": {},
+      "title": "Eng"
+    },
+    "i3zo8h6ygp5kt920mjt28vl": {
+      "fname": "learning.eng.vocab",
+      "stub": true,
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670480519766,
+      "created": 1670480519766,
+      "id": "i3zo8h6ygp5kt920mjt28vl",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "qvw8cjqjtctws3gtjrn9g53"
+      ],
+      "parent": "2kl4uby2xz8xsy8o6xupl0t",
+      "data": {},
+      "title": "Vocab"
+    },
+    "qvw8cjqjtctws3gtjrn9g53": {
+      "id": "qvw8cjqjtctws3gtjrn9g53",
+      "title": "Meanings",
+      "desc": "",
+      "updated": 1655020476863,
+      "created": 1655019812271,
+      "custom": {},
+      "fname": "notes.topic.eng.vocab.meanings",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "99a2429815fdbb3e918ed69795b716dd",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "quto3oii6jktl7s3f49ojtk",
+      "data": {}
+    },
+    "hjgrq91537kuifrh4za6mjn": {
+      "fname": "learning.eng.grammer",
+      "stub": true,
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670480519765,
+      "created": 1670480519765,
+      "id": "hjgrq91537kuifrh4za6mjn",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "6ybahqmiv067devbcos5nvh"
+      ],
+      "parent": "2kl4uby2xz8xsy8o6xupl0t",
+      "data": {},
+      "title": "Grammer"
+    },
+    "6ybahqmiv067devbcos5nvh": {
+      "id": "6ybahqmiv067devbcos5nvh",
+      "title": "Preposition",
+      "desc": "",
+      "updated": 1655024231992,
+      "created": 1655019160335,
+      "custom": {},
+      "fname": "notes.topic.eng.grammer.preposition",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "5c365dc56a5076160d146254e0ef789d",
+      "links": [
+        {
+          "type": "ref",
+          "from": {
+            "fname": "notes.topic.eng.grammer.preposition",
+            "id": "6ybahqmiv067devbcos5nvh",
+            "vaultName": "learning-notes"
+          },
+          "value": "notes.topic.eng.grammer.preposition.arrive-at-or-in",
+          "position": {
+            "start": {
+              "line": 10,
+              "column": 1,
+              "offset": 337
+            },
+            "end": {
+              "line": 10,
+              "column": 75,
+              "offset": 411
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "notes.topic.eng.grammer.preposition.arrive-at-or-in",
+            "anchorHeader": "arrive-at-on-in,1"
+          }
+        },
+        {
+          "type": "ref",
+          "from": {
+            "fname": "notes.topic.eng.grammer.preposition",
+            "id": "6ybahqmiv067devbcos5nvh",
+            "vaultName": "learning-notes"
+          },
+          "value": "notes.topic.eng.grammer.preposition.time-at-on-in",
+          "position": {
+            "start": {
+              "line": 12,
+              "column": 1,
+              "offset": 413
+            },
+            "end": {
+              "line": 12,
+              "column": 55,
+              "offset": 467
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "notes.topic.eng.grammer.preposition.time-at-on-in"
+          }
+        }
+      ],
+      "anchors": {
+        "preposition-in-workplace": {
+          "type": "header",
+          "text": "Preposition in workplace",
+          "value": "preposition-in-workplace",
+          "line": 21,
+          "column": 0,
+          "depth": 3
+        },
+        "at": {
+          "type": "header",
+          "text": "at",
+          "value": "at",
+          "line": 26,
+          "column": 0,
+          "depth": 2
+        },
+        "for": {
+          "type": "header",
+          "text": "for",
+          "value": "for",
+          "line": 33,
+          "column": 0,
+          "depth": 2
+        },
+        "with": {
+          "type": "header",
+          "text": "with",
+          "value": "with",
+          "line": 39,
+          "column": 0,
+          "depth": 2
+        },
+        "in": {
+          "type": "header",
+          "text": "in",
+          "value": "in",
+          "line": 45,
+          "column": 0,
+          "depth": 2
+        },
+        "on": {
+          "type": "header",
+          "text": "on",
+          "value": "on",
+          "line": 51,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "v4ad8r132ptysursrp7cjhz",
+        "3tl5ts2r5je44kzdi565jnj"
+      ],
+      "parent": "n1qbtmebkpgn077clry44hb",
+      "data": {}
+    },
+    "3tl5ts2r5je44kzdi565jnj": {
+      "id": "3tl5ts2r5je44kzdi565jnj",
+      "title": "Time at on In",
+      "desc": "",
+      "updated": 1655024404923,
+      "created": 1655024231672,
+      "custom": {},
+      "fname": "notes.topic.eng.grammer.preposition.time-at-on-in",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "174ffd2aa397e431e45cb76998814f2f",
+      "links": [
+        {
+          "from": {
+            "id": "6ybahqmiv067devbcos5nvh",
+            "fname": "notes.topic.eng.grammer.preposition",
+            "vaultName": "learning-notes"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 12,
+              "column": 1,
+              "offset": 413
+            },
+            "end": {
+              "line": 12,
+              "column": 55,
+              "offset": 467
+            },
+            "indent": []
+          },
+          "value": "notes.topic.eng.grammer.preposition.time-at-on-in"
+        }
+      ],
+      "anchors": {
+        "time-at-on-in": {
+          "type": "header",
+          "text": "Time at on in",
+          "value": "time-at-on-in",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "6ybahqmiv067devbcos5nvh",
+      "data": {}
+    },
+    "v4ad8r132ptysursrp7cjhz": {
+      "id": "v4ad8r132ptysursrp7cjhz",
+      "title": "Arrive at or In",
+      "desc": "",
+      "updated": 1655024081180,
+      "created": 1655023267453,
+      "custom": {},
+      "fname": "notes.topic.eng.grammer.preposition.arrive-at-or-in",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "edc2f9ee644e8c49181c2a13b9b1320b",
+      "links": [
+        {
+          "from": {
+            "id": "6ybahqmiv067devbcos5nvh",
+            "fname": "notes.topic.eng.grammer.preposition",
+            "vaultName": "learning-notes"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 10,
+              "column": 1,
+              "offset": 337
+            },
+            "end": {
+              "line": 10,
+              "column": 75,
+              "offset": 411
+            },
+            "indent": []
+          },
+          "value": "notes.topic.eng.grammer.preposition.arrive-at-or-in"
+        }
+      ],
+      "anchors": {
+        "arrive-at-on-in": {
+          "type": "header",
+          "text": "Arrive At on in?",
+          "value": "arrive-at-on-in",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "when": {
+          "type": "header",
+          "text": "WHEN",
+          "value": "when",
+          "line": 20,
+          "column": 0,
+          "depth": 3
+        },
+        "where": {
+          "type": "header",
+          "text": "WHERE",
+          "value": "where",
+          "line": 25,
+          "column": 0,
+          "depth": 3
+        },
+        "exceptions": {
+          "type": "header",
+          "text": "Exceptions",
+          "value": "exceptions",
+          "line": 31,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "6ybahqmiv067devbcos5nvh",
+      "data": {}
+    },
+    "z4sgfhwkw1oec6zns62si5o": {
+      "fname": "learning.dsa",
+      "stub": true,
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670480519760,
+      "created": 1670480519760,
+      "id": "z4sgfhwkw1oec6zns62si5o",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "yyyjeii77vfw4lvvc9qwvdj",
+        "cqa4ysgqx8jgelbxs3fo9ts"
+      ],
+      "parent": "cev4vzt27wi2rjm3znxgwkl",
+      "data": {},
+      "title": "Dsa"
+    },
+    "cqa4ysgqx8jgelbxs3fo9ts": {
+      "id": "cqa4ysgqx8jgelbxs3fo9ts",
+      "title": "Resource",
+      "desc": "",
+      "updated": 1659337052027,
+      "created": 1659335563449,
+      "custom": {},
+      "fname": "notes.topic.dsa.resource",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "c8b70f2190a8997ef58671bb30737eb2",
+      "links": [],
+      "anchors": {
+        "problem-set": {
+          "type": "header",
+          "text": "Problem Set",
+          "value": "problem-set",
+          "line": 14,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "219gobkt9f3zuf736goeih6",
+      "data": {}
+    },
+    "yyyjeii77vfw4lvvc9qwvdj": {
+      "id": "yyyjeii77vfw4lvvc9qwvdj",
+      "title": "Leetcode",
+      "desc": "",
+      "updated": 1662914887537,
+      "created": 1662914267037,
+      "custom": {},
+      "fname": "notes.topic.dsa.leetcode",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "a939f344743f3637ac8f05349ec1e510",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "notes.topic.dsa.leetcode",
+            "id": "yyyjeii77vfw4lvvc9qwvdj",
+            "vaultName": "learning-notes"
+          },
+          "value": "dsa\\neetcode\\twoSum.js",
+          "alias": "source code",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 3,
+              "offset": 122
+            },
+            "end": {
+              "line": 6,
+              "column": 43,
+              "offset": 162
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "dsa\\neetcode\\twoSum.js"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "notes.topic.dsa.leetcode",
+            "id": "yyyjeii77vfw4lvvc9qwvdj",
+            "vaultName": "learning-notes"
+          },
+          "value": "dsa\\neetcode\\best-time-to-sell.js",
+          "alias": "source code",
+          "position": {
+            "start": {
+              "line": 15,
+              "column": 3,
+              "offset": 438
+            },
+            "end": {
+              "line": 15,
+              "column": 54,
+              "offset": 489
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "dsa\\neetcode\\best-time-to-sell.js"
+          }
+        }
+      ],
+      "anchors": {
+        "two-pointer---leetcode-121": {
+          "type": "header",
+          "text": "Two pointer - Leetcode 121",
+          "value": "two-pointer---leetcode-121",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "sliding-window-best-time-to-buy-and-sell-stock---leetcode-121": {
+          "type": "header",
+          "text": "Sliding Window: Best Time to Buy and Sell Stock - Leetcode 121",
+          "value": "sliding-window-best-time-to-buy-and-sell-stock---leetcode-121",
+          "line": 17,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "219gobkt9f3zuf736goeih6",
+      "data": {}
+    },
+    "spb7nh15wevv5pbksyulihq": {
+      "fname": "learning.css",
+      "stub": true,
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670480519759,
+      "created": 1670480519759,
+      "id": "spb7nh15wevv5pbksyulihq",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "5shqmwqivatr06oasv480ni",
+        "9hwfp65pm5gvegngk1hf68w"
+      ],
+      "parent": "cev4vzt27wi2rjm3znxgwkl",
+      "data": {},
+      "title": "CSS"
+    },
+    "9hwfp65pm5gvegngk1hf68w": {
+      "id": "9hwfp65pm5gvegngk1hf68w",
+      "title": "Position",
+      "desc": "",
+      "updated": 1659516951301,
+      "created": 1659516742992,
+      "custom": {},
+      "fname": "notes.topic.css.position",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "23e4e1eb9b25828a28ac9a7f42113b96",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "uvev3r9r93oary0cg0m5cwd",
+      "data": {}
+    },
+    "5shqmwqivatr06oasv480ni": {
+      "id": "5shqmwqivatr06oasv480ni",
+      "title": "Flex Box",
+      "desc": "",
+      "updated": 1659518243040,
+      "created": 1648902134597,
+      "custom": {},
+      "fname": "notes.topic.css.flex-box",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "558618a145293c766dcbb8b04a58005d",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "notes.topic.css.flex-box",
+            "id": "5shqmwqivatr06oasv480ni",
+            "vaultName": "learning-notes"
+          },
+          "value": "tags.learn",
+          "alias": "#learn",
+          "position": {
+            "start": {
+              "line": 81,
+              "column": 15,
+              "offset": 3145
+            },
+            "end": {
+              "line": 81,
+              "column": 21,
+              "offset": 3151
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.learn"
+          }
+        }
+      ],
+      "anchors": {
+        "flexbox": {
+          "type": "header",
+          "text": "Flexbox",
+          "value": "flexbox",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "properties": {
+          "type": "header",
+          "text": "Properties",
+          "value": "properties",
+          "line": 13,
+          "column": 0,
+          "depth": 2
+        },
+        "justify-content": {
+          "type": "header",
+          "text": "justify-content",
+          "value": "justify-content",
+          "line": 15,
+          "column": 0,
+          "depth": 3
+        },
+        "align-items": {
+          "type": "header",
+          "text": "align-items",
+          "value": "align-items",
+          "line": 25,
+          "column": 0,
+          "depth": 3
+        },
+        "align-content": {
+          "type": "header",
+          "text": "align-content",
+          "value": "align-content",
+          "line": 35,
+          "column": 0,
+          "depth": 3
+        },
+        "flex-direction": {
+          "type": "header",
+          "text": "flex-direction",
+          "value": "flex-direction",
+          "line": 46,
+          "column": 0,
+          "depth": 3
+        },
+        "flex-wrap": {
+          "type": "header",
+          "text": "flex-wrap",
+          "value": "flex-wrap",
+          "line": 63,
+          "column": 0,
+          "depth": 3
+        },
+        "flex-flow": {
+          "type": "header",
+          "text": "flex-flow",
+          "value": "flex-flow",
+          "line": 72,
+          "column": 0,
+          "depth": 3
+        },
+        "align-self": {
+          "type": "header",
+          "text": "align-self",
+          "value": "align-self",
+          "line": 77,
+          "column": 0,
+          "depth": 3
+        },
+        "order": {
+          "type": "header",
+          "text": "order",
+          "value": "order",
+          "line": 80,
+          "column": 0,
+          "depth": 3
+        },
+        "todo": {
+          "type": "header",
+          "text": "TODO",
+          "value": "todo",
+          "line": 86,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "uvev3r9r93oary0cg0m5cwd",
+      "data": {}
+    },
+    "v6w7qcvk7gmeht0j9xzdtbd": {
+      "fname": "tags",
+      "stub": true,
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670480519759,
+      "created": 1670480519759,
+      "id": "v6w7qcvk7gmeht0j9xzdtbd",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "gnxywb70sldsrsabn47cn3z"
+      ],
+      "parent": "dlb5bmx7v8f6otsgongz4vx",
+      "data": {},
+      "title": "Tags"
+    },
+    "gnxywb70sldsrsabn47cn3z": {
+      "id": "gnxywb70sldsrsabn47cn3z",
+      "title": "Learn",
+      "desc": "",
+      "updated": 1648903020821,
+      "created": 1648903020821,
+      "custom": {},
+      "fname": "tags.learn",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "a7a4ed261dfdf7bc3a691505efa13476",
+      "links": [
+        {
+          "from": {
+            "id": "5shqmwqivatr06oasv480ni",
+            "fname": "notes.topic.css.flex-box",
+            "vaultName": "learning-notes"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 81,
+              "column": 15,
+              "offset": 3145
+            },
+            "end": {
+              "line": 81,
+              "column": 21,
+              "offset": 3151
+            },
+            "indent": []
+          },
+          "value": "tags.learn",
+          "alias": "#learn"
+        },
+        {
+          "from": {
+            "id": "ni4mv17f04ieqk6sxn02o77",
+            "fname": "notes.topic.react.fundamentals",
+            "vaultName": "learning-notes"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 27,
+              "column": 20,
+              "offset": 1241
+            },
+            "end": {
+              "line": 27,
+              "column": 26,
+              "offset": 1247
+            },
+            "indent": []
+          },
+          "value": "tags.learn",
+          "alias": "#learn"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "v6w7qcvk7gmeht0j9xzdtbd",
+      "data": {}
+    },
+    "c31i1fsmoluyjb7iffcjabg": {
+      "fname": "reading",
+      "stub": true,
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670480519756,
+      "created": 1670480519756,
+      "id": "c31i1fsmoluyjb7iffcjabg",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "c4ezac61gerrgf7k5zr4jfe",
+        "mffn9vpfm1au1w8nf96h7c6",
+        "rpk72eqiykyp7qbtm07toik",
+        "7nwcffq2pkzuxj9qsjfj0he",
+        "3frnz4fpts8msksl1qcs9r1"
+      ],
+      "parent": "dlb5bmx7v8f6otsgongz4vx",
+      "data": {},
+      "title": "Reading"
+    },
+    "3frnz4fpts8msksl1qcs9r1": {
+      "id": "3frnz4fpts8msksl1qcs9r1",
+      "title": "You Dont Know JS",
+      "desc": "",
+      "updated": 1659960289078,
+      "created": 1659960289078,
+      "custom": {},
+      "fname": "notes.reading.you-dont-know-js",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "b40c855e5a94cd474fc23471a8fcc1a7",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "c8csxid3zoghxorepwcrami",
+      "data": {}
+    },
+    "7nwcffq2pkzuxj9qsjfj0he": {
+      "id": "7nwcffq2pkzuxj9qsjfj0he",
+      "title": "The Seven Husband of Evelyn Hugo",
+      "desc": "",
+      "updated": 1659963280529,
+      "created": 1659960484536,
+      "custom": {},
+      "fname": "notes.reading.the-seven-husband-of-evelyn-hugo",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "34ff83e6e98af53b2b68986ea7e58a59",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "notes.reading.the-seven-husband-of-evelyn-hugo",
+            "id": "7nwcffq2pkzuxj9qsjfj0he",
+            "vaultName": "learning-notes"
+          },
+          "value": "tags.domestic-violence",
+          "alias": "#domestic-violence",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 63,
+              "offset": 1186
+            },
+            "end": {
+              "line": 8,
+              "column": 81,
+              "offset": 1204
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.domestic-violence"
+          }
+        }
+      ],
+      "anchors": {
+        "summary": {
+          "type": "header",
+          "text": "Summary",
+          "value": "summary",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "marriages": {
+          "type": "header",
+          "text": "Marriages",
+          "value": "marriages",
+          "line": 12,
+          "column": 0,
+          "depth": 3
+        },
+        "takeaways": {
+          "type": "header",
+          "text": "Takeaways",
+          "value": "takeaways",
+          "line": 23,
+          "column": 0,
+          "depth": 2
+        },
+        "fav-quotes": {
+          "type": "header",
+          "text": "Fav quotes",
+          "value": "fav-quotes",
+          "line": 28,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "c8csxid3zoghxorepwcrami",
+      "data": {}
+    },
+    "rpk72eqiykyp7qbtm07toik": {
+      "id": "rpk72eqiykyp7qbtm07toik",
+      "title": "The Lean Startup",
+      "desc": "",
+      "updated": 1648529425317,
+      "created": 1648529425317,
+      "custom": {},
+      "fname": "notes.reading.the-lean-startup",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "ef3c21550fce5e2f6ebddeca9120f2ca",
+      "links": [],
+      "anchors": {
+        "4-experiment": {
+          "type": "header",
+          "text": "4. Experiment",
+          "value": "4-experiment",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "c8csxid3zoghxorepwcrami",
+      "data": {}
+    },
+    "mffn9vpfm1au1w8nf96h7c6": {
+      "id": "mffn9vpfm1au1w8nf96h7c6",
+      "title": "Ram",
+      "desc": "",
+      "updated": 1662356809218,
+      "created": 1659963349238,
+      "custom": {},
+      "fname": "reading.ram",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "c1fbfa1d4d2c475926bef4c433d6678b",
+      "links": [
+        {
+          "type": "ref",
+          "from": {
+            "fname": "reading.ram",
+            "id": "mffn9vpfm1au1w8nf96h7c6",
+            "vaultName": "learning-notes"
+          },
+          "value": "reading.ram",
+          "position": {
+            "start": {
+              "line": 10,
+              "column": 1,
+              "offset": 598
+            },
+            "end": {
+              "line": 10,
+              "column": 31,
+              "offset": 628
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "reading.ram",
+            "anchorHeader": "^dxpub7hs2rel"
+          }
+        }
+      ],
+      "anchors": {
+        "comments": {
+          "type": "header",
+          "text": "Comments",
+          "value": "comments",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        },
+        "summary": {
+          "type": "header",
+          "text": "Summary",
+          "value": "summary",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        },
+        "takeaways": {
+          "type": "header",
+          "text": "Takeaways",
+          "value": "takeaways",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "fav-quotes": {
+          "type": "header",
+          "text": "Fav quotes",
+          "value": "fav-quotes",
+          "line": 17,
+          "column": 0,
+          "depth": 2
+        },
+        "vocab": {
+          "type": "header",
+          "text": "vocab",
+          "value": "vocab",
+          "line": 28,
+          "column": 0,
+          "depth": 2
+        },
+        "^dxpub7hs2rel": {
+          "type": "block",
+          "value": "dxpub7hs2rel",
+          "line": 9,
+          "column": 507
+        }
+      },
+      "children": [],
+      "parent": "c31i1fsmoluyjb7iffcjabg",
+      "data": {}
+    },
+    "c4ezac61gerrgf7k5zr4jfe": {
+      "id": "c4ezac61gerrgf7k5zr4jfe",
+      "title": "1984",
+      "desc": "",
+      "updated": 1662228344406,
+      "created": 1662228344406,
+      "custom": {},
+      "fname": "notes.reading.1984",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "afeee7b7592b6c26538c45e42f08938e",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "c8csxid3zoghxorepwcrami",
+      "data": {}
+    },
+    "twdastnk7qsdzm0wt64i6cz": {
+      "fname": "fitness",
+      "stub": true,
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670480519753,
+      "created": 1670480519753,
+      "id": "twdastnk7qsdzm0wt64i6cz",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "z2fyulim4zbxh25piye97c1",
+        "stww0cea9p2cyovpdydx209",
+        "9ox5xb6973p7bka4mlf85kl"
+      ],
+      "parent": "dlb5bmx7v8f6otsgongz4vx",
+      "data": {},
+      "title": "Fitness"
+    },
+    "9ox5xb6973p7bka4mlf85kl": {
+      "id": "9ox5xb6973p7bka4mlf85kl",
+      "title": "Yoga",
+      "desc": "",
+      "updated": 1662354227321,
+      "created": 1662354227321,
+      "custom": {},
+      "fname": "notes.fitness.yoga",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "09b667bfc661d3327b400c570483e8b5",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "c95a3sws41a5krichcj7z3r",
+      "data": {}
+    },
+    "stww0cea9p2cyovpdydx209": {
+      "id": "stww0cea9p2cyovpdydx209",
+      "title": "Pushups",
+      "desc": "",
+      "updated": 1662353875029,
+      "created": 1662353875029,
+      "custom": {},
+      "fname": "notes.fitness.pushups",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "cb0a7592dc95c082b6edb2399430abdc",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "c95a3sws41a5krichcj7z3r",
+      "data": {}
+    },
+    "z2fyulim4zbxh25piye97c1": {
+      "id": "z2fyulim4zbxh25piye97c1",
+      "title": "Arms and Biceps",
+      "desc": "",
+      "updated": 1662354027812,
+      "created": 1662354027812,
+      "custom": {},
+      "fname": "notes.fitness.arms-and-biceps",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "4bef1945298fdb3b472d5a6d56e32366",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "c95a3sws41a5krichcj7z3r",
+      "data": {}
+    },
+    "c8csxid3zoghxorepwcrami": {
+      "id": "c8csxid3zoghxorepwcrami",
+      "title": "Reading",
+      "desc": "",
+      "updated": 1650446934368,
+      "created": 1650446934368,
+      "custom": {},
+      "fname": "notes.reading",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "3b741a54c29a4f6d4b10d304dabe5a16",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "c4ezac61gerrgf7k5zr4jfe",
+        "eq5bxorcagijzo7xovo3cpv",
+        "rpk72eqiykyp7qbtm07toik",
+        "7nwcffq2pkzuxj9qsjfj0he",
+        "3frnz4fpts8msksl1qcs9r1"
+      ],
+      "parent": "5mg2j4msjvokz541h0tdvni",
+      "data": {}
+    },
+    "eq5bxorcagijzo7xovo3cpv": {
+      "id": "eq5bxorcagijzo7xovo3cpv",
+      "title": "Ram",
+      "desc": "",
+      "updated": 1663051830866,
+      "created": 1659963349238,
+      "custom": {},
+      "fname": "notes.reading.ram",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "9c451f64c305cfb82bafad17ab253efa",
+      "links": [],
+      "anchors": {
+        "comments": {
+          "type": "header",
+          "text": "Comments",
+          "value": "comments",
+          "line": 7,
+          "column": 0,
+          "depth": 2
+        },
+        "summary": {
+          "type": "header",
+          "text": "Summary",
+          "value": "summary",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        },
+        "takeaways": {
+          "type": "header",
+          "text": "Takeaways",
+          "value": "takeaways",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "fav-quotes": {
+          "type": "header",
+          "text": "Fav quotes",
+          "value": "fav-quotes",
+          "line": 18,
+          "column": 0,
+          "depth": 2
+        },
+        "vocab": {
+          "type": "header",
+          "text": "vocab",
+          "value": "vocab",
+          "line": 29,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "c8csxid3zoghxorepwcrami",
+      "data": {}
+    },
+    "5mg2j4msjvokz541h0tdvni": {
+      "id": "5mg2j4msjvokz541h0tdvni",
+      "title": "Home",
+      "desc": "",
+      "updated": 1663054560051,
+      "created": 1663050115859,
+      "custom": {},
+      "fname": "notes",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "cd8309f8c6acaaa909bf593f41dba819",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "c8csxid3zoghxorepwcrami",
+        "trkx8xrg7g2fm023ez4ldqj",
+        "c95a3sws41a5krichcj7z3r"
+      ],
+      "parent": "dlb5bmx7v8f6otsgongz4vx",
+      "data": {}
+    },
+    "c95a3sws41a5krichcj7z3r": {
+      "fname": "notes.fitness",
+      "stub": true,
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670480519761,
+      "created": 1670480519761,
+      "id": "c95a3sws41a5krichcj7z3r",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "z2fyulim4zbxh25piye97c1",
+        "stww0cea9p2cyovpdydx209",
+        "9ox5xb6973p7bka4mlf85kl"
+      ],
+      "parent": "5mg2j4msjvokz541h0tdvni",
+      "data": {},
+      "title": "Fitness"
+    },
+    "trkx8xrg7g2fm023ez4ldqj": {
+      "id": "trkx8xrg7g2fm023ez4ldqj",
+      "title": "Topic",
+      "desc": "",
+      "updated": 1649859853071,
+      "created": 1649859853071,
+      "custom": {},
+      "fname": "notes.topic",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "030ecfe5c603f4f24503b74347323710",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "8065ff8i49o4xwg1za7tgro",
+        "8k7fj3knfjs2vz42yxldbzk",
+        "8fp89ktw3fhi2p6bt35b5ju",
+        "f5le3rs98wmsd3hn55xqtdf",
+        "qni9fshnce32rhoxta4na21",
+        "uvev3r9r93oary0cg0m5cwd",
+        "219gobkt9f3zuf736goeih6",
+        "wxghq6i5x2ruzqo5x7rygqo"
+      ],
+      "parent": "5mg2j4msjvokz541h0tdvni",
+      "data": {}
+    },
+    "wxghq6i5x2ruzqo5x7rygqo": {
+      "fname": "notes.topic.eng",
+      "stub": true,
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670480519768,
+      "created": 1670480519768,
+      "id": "wxghq6i5x2ruzqo5x7rygqo",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "n1qbtmebkpgn077clry44hb",
+        "quto3oii6jktl7s3f49ojtk"
+      ],
+      "parent": "trkx8xrg7g2fm023ez4ldqj",
+      "data": {},
+      "title": "Eng"
+    },
+    "quto3oii6jktl7s3f49ojtk": {
+      "fname": "notes.topic.eng.vocab",
+      "stub": true,
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670480519768,
+      "created": 1670480519768,
+      "id": "quto3oii6jktl7s3f49ojtk",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "qvw8cjqjtctws3gtjrn9g53"
+      ],
+      "parent": "wxghq6i5x2ruzqo5x7rygqo",
+      "data": {},
+      "title": "Vocab"
+    },
+    "n1qbtmebkpgn077clry44hb": {
+      "fname": "notes.topic.eng.grammer",
+      "stub": true,
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670480519768,
+      "created": 1670480519768,
+      "id": "n1qbtmebkpgn077clry44hb",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "6ybahqmiv067devbcos5nvh"
+      ],
+      "parent": "wxghq6i5x2ruzqo5x7rygqo",
+      "data": {},
+      "title": "Grammer"
+    },
+    "219gobkt9f3zuf736goeih6": {
+      "fname": "notes.topic.dsa",
+      "stub": true,
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670480519767,
+      "created": 1670480519767,
+      "id": "219gobkt9f3zuf736goeih6",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "yyyjeii77vfw4lvvc9qwvdj",
+        "cqa4ysgqx8jgelbxs3fo9ts"
+      ],
+      "parent": "trkx8xrg7g2fm023ez4ldqj",
+      "data": {},
+      "title": "Dsa"
+    },
+    "uvev3r9r93oary0cg0m5cwd": {
+      "fname": "notes.topic.css",
+      "stub": true,
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1670480519766,
+      "created": 1670480519766,
+      "id": "uvev3r9r93oary0cg0m5cwd",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "5shqmwqivatr06oasv480ni",
+        "9hwfp65pm5gvegngk1hf68w"
+      ],
+      "parent": "trkx8xrg7g2fm023ez4ldqj",
+      "data": {},
+      "title": "CSS"
+    },
+    "qni9fshnce32rhoxta4na21": {
+      "id": "qni9fshnce32rhoxta4na21",
+      "title": "Web",
+      "desc": "",
+      "updated": 1658833116576,
+      "created": 1658826095958,
+      "custom": {},
+      "fname": "notes.topic.web",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "f48f4302fccc0d1245b1c5eeaaf139d6",
+      "links": [],
+      "anchors": {
+        "critical-rendering-path": {
+          "type": "header",
+          "text": "Critical Rendering Path",
+          "value": "critical-rendering-path",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "dom": {
+          "type": "header",
+          "text": "DOM",
+          "value": "dom",
+          "line": 19,
+          "column": 0,
+          "depth": 3
+        },
+        "cssom": {
+          "type": "header",
+          "text": "CSSOM",
+          "value": "cssom",
+          "line": 28,
+          "column": 0,
+          "depth": 3
+        },
+        "render-tree": {
+          "type": "header",
+          "text": "Render Tree",
+          "value": "render-tree",
+          "line": 36,
+          "column": 0,
+          "depth": 3
+        },
+        "layout": {
+          "type": "header",
+          "text": "Layout",
+          "value": "layout",
+          "line": 39,
+          "column": 0,
+          "depth": 3
+        },
+        "paint": {
+          "type": "header",
+          "text": "Paint",
+          "value": "paint",
+          "line": 42,
+          "column": 0,
+          "depth": 3
+        },
+        "optimizing-crp": {
+          "type": "header",
+          "text": "Optimizing CRP",
+          "value": "optimizing-crp",
+          "line": 46,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "z34vf2zj27tr4j9219ze4c4"
+      ],
+      "parent": "trkx8xrg7g2fm023ez4ldqj",
+      "data": {}
+    },
+    "z34vf2zj27tr4j9219ze4c4": {
+      "id": "z34vf2zj27tr4j9219ze4c4",
+      "title": "Web Vitals",
+      "desc": "",
+      "updated": 1659337091478,
+      "created": 1658826120950,
+      "custom": {},
+      "fname": "notes.topic.web.web-vitals",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "87886084ff5f48af57b36bd245e6475d",
+      "links": [],
+      "anchors": {
+        "web-vitals": {
+          "type": "header",
+          "text": "Web vitals",
+          "value": "web-vitals",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "resource": {
+          "type": "header",
+          "text": "Resource",
+          "value": "resource",
+          "line": 14,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "qni9fshnce32rhoxta4na21",
+      "data": {}
+    },
+    "f5le3rs98wmsd3hn55xqtdf": {
+      "id": "f5le3rs98wmsd3hn55xqtdf",
+      "title": "Saas",
+      "desc": "",
+      "updated": 1662287037014,
+      "created": 1662287037014,
+      "custom": {},
+      "fname": "notes.topic.saas",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "cc7e5616a3cfa1e87c1bd0801ce15fb3",
+      "links": [],
+      "anchors": {
+        "resource": {
+          "type": "header",
+          "text": "Resource",
+          "value": "resource",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "trkx8xrg7g2fm023ez4ldqj",
+      "data": {}
+    },
+    "8fp89ktw3fhi2p6bt35b5ju": {
+      "id": "8fp89ktw3fhi2p6bt35b5ju",
+      "title": "React",
+      "desc": "",
+      "updated": 1649609397949,
+      "created": 1648190205452,
+      "custom": {},
+      "fname": "notes.topic.react",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "64e379661bd1f5a6aa7543e60c114da7",
+      "links": [],
+      "anchors": {
+        "resources": {
+          "type": "header",
+          "text": "Resources",
+          "value": "resources",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "core-fundamentals": {
+          "type": "header",
+          "text": "Core fundamentals",
+          "value": "core-fundamentals",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "to-make-framework": {
+          "type": "header",
+          "text": "to make framework",
+          "value": "to-make-framework",
+          "line": 16,
+          "column": 0,
+          "depth": 2
+        },
+        "adavenced": {
+          "type": "header",
+          "text": "Adavenced",
+          "value": "adavenced",
+          "line": 22,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "ni4mv17f04ieqk6sxn02o77",
+        "oca8al9dg5b5wstqa8xcz7b",
+        "umwm8usngvk782y69tckzi1",
+        "m4ow149on5nzr7y0h39r5oc"
+      ],
+      "parent": "trkx8xrg7g2fm023ez4ldqj",
+      "data": {}
+    },
+    "m4ow149on5nzr7y0h39r5oc": {
+      "id": "m4ow149on5nzr7y0h39r5oc",
+      "title": "Router",
+      "desc": "",
+      "updated": 1663050071333,
+      "created": 1649591998294,
+      "custom": {},
+      "fname": "notes.topic.react.router",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "9b66d7ab37b7819948c22e6a7d33b132",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "notes.topic.react.router",
+            "id": "m4ow149on5nzr7y0h39r5oc",
+            "vaultName": "learning-notes"
+          },
+          "value": "notes.topic.react.router",
+          "alias": "React Router v6",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 55,
+              "offset": 55
+            },
+            "end": {
+              "line": 2,
+              "column": 115,
+              "offset": 115
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "notes.topic.react.router",
+            "anchorHeader": "react-router-v6"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "notes.topic.react.router",
+            "id": "m4ow149on5nzr7y0h39r5oc",
+            "vaultName": "learning-notes"
+          },
+          "value": "notes.topic.react.router",
+          "alias": "useParams",
+          "position": {
+            "start": {
+              "line": 111,
+              "column": 55,
+              "offset": 2794
+            },
+            "end": {
+              "line": 111,
+              "column": 103,
+              "offset": 2842
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "notes.topic.react.router",
+            "anchorHeader": "useparams"
+          }
+        }
+      ],
+      "anchors": {
+        "browser-router": {
+          "type": "header",
+          "text": "Browser Router",
+          "value": "browser-router",
+          "line": 9,
+          "column": 0,
+          "depth": 2
+        },
+        "router": {
+          "type": "header",
+          "text": "Router",
+          "value": "router",
+          "line": 16,
+          "column": 0,
+          "depth": 2
+        },
+        "switch": {
+          "type": "header",
+          "text": "Switch",
+          "value": "switch",
+          "line": 29,
+          "column": 0,
+          "depth": 2
+        },
+        "link": {
+          "type": "header",
+          "text": "Link",
+          "value": "link",
+          "line": 50,
+          "column": 0,
+          "depth": 2
+        },
+        "react-router-hooks": {
+          "type": "header",
+          "text": "React Router Hooks",
+          "value": "react-router-hooks",
+          "line": 62,
+          "column": 0,
+          "depth": 2
+        },
+        "useparams": {
+          "type": "header",
+          "text": "useParams",
+          "value": "useparams",
+          "line": 64,
+          "column": 0,
+          "depth": 3
+        },
+        "usenavigate": {
+          "type": "header",
+          "text": "useNavigate",
+          "value": "usenavigate",
+          "line": 74,
+          "column": 0,
+          "depth": 3
+        },
+        "uselocation": {
+          "type": "header",
+          "text": "useLocation",
+          "value": "uselocation",
+          "line": 90,
+          "column": 0,
+          "depth": 3
+        },
+        "react-router-v6": {
+          "type": "header",
+          "text": "React Router v6",
+          "value": "react-router-v6",
+          "line": 96,
+          "column": 0,
+          "depth": 2
+        },
+        "changes": {
+          "type": "header",
+          "text": "Changes",
+          "value": "changes",
+          "line": 99,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "8fp89ktw3fhi2p6bt35b5ju",
+      "data": {}
+    },
+    "umwm8usngvk782y69tckzi1": {
+      "id": "umwm8usngvk782y69tckzi1",
+      "title": "Query",
+      "desc": "",
+      "updated": 1649001453851,
+      "created": 1649001453851,
+      "custom": {},
+      "fname": "notes.topic.react.query",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "0eca7afc71dba21bf3d0a7f4ed6b4fbb",
+      "links": [],
+      "anchors": {
+        "react-query": {
+          "type": "header",
+          "text": "React Query",
+          "value": "react-query",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [],
+      "parent": "8fp89ktw3fhi2p6bt35b5ju",
+      "data": {}
+    },
+    "oca8al9dg5b5wstqa8xcz7b": {
+      "id": "oca8al9dg5b5wstqa8xcz7b",
+      "title": "Performance",
+      "desc": "",
+      "updated": 1649614685015,
+      "created": 1648993685432,
+      "custom": {},
+      "fname": "notes.topic.react.performance",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "d1bbc33a62790b518e47cf7c77f932ba",
+      "links": [],
+      "anchors": {
+        "performance": {
+          "type": "header",
+          "text": "Performance",
+          "value": "performance",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "memoisation": {
+          "type": "header",
+          "text": "Memoisation",
+          "value": "memoisation",
+          "line": 11,
+          "column": 0,
+          "depth": 2
+        },
+        "reactmemo": {
+          "type": "header",
+          "text": "React.memo",
+          "value": "reactmemo",
+          "line": 14,
+          "column": 0,
+          "depth": 3
+        },
+        "functional-component": {
+          "type": "header",
+          "text": "Functional Component",
+          "value": "functional-component",
+          "line": 17,
+          "column": 0,
+          "depth": 4
+        },
+        "class-component": {
+          "type": "header",
+          "text": "Class Component",
+          "value": "class-component",
+          "line": 22,
+          "column": 0,
+          "depth": 4
+        },
+        "usecallback-hook": {
+          "type": "header",
+          "text": "useCallback hook",
+          "value": "usecallback-hook",
+          "line": 25,
+          "column": 0,
+          "depth": 3
+        },
+        "usememo-hook": {
+          "type": "header",
+          "text": "useMemo hook",
+          "value": "usememo-hook",
+          "line": 35,
+          "column": 0,
+          "depth": 3
+        },
+        "code-splitting": {
+          "type": "header",
+          "text": "Code splitting",
+          "value": "code-splitting",
+          "line": 39,
+          "column": 0,
+          "depth": 2
+        },
+        "suspense": {
+          "type": "header",
+          "text": "Suspense",
+          "value": "suspense",
+          "line": 47,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "8fp89ktw3fhi2p6bt35b5ju",
+      "data": {}
+    },
+    "ni4mv17f04ieqk6sxn02o77": {
+      "id": "ni4mv17f04ieqk6sxn02o77",
+      "title": "Fundamentals",
+      "desc": "",
+      "updated": 1649609418446,
+      "created": 1648899620451,
+      "custom": {},
+      "fname": "notes.topic.react.fundamentals",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "547d0eb9ad1f1c5a3302044b6cf98aab",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "notes.topic.react.fundamentals",
+            "id": "ni4mv17f04ieqk6sxn02o77",
+            "vaultName": "learning-notes"
+          },
+          "value": "tags.learn",
+          "alias": "#learn",
+          "position": {
+            "start": {
+              "line": 27,
+              "column": 20,
+              "offset": 1241
+            },
+            "end": {
+              "line": 27,
+              "column": 26,
+              "offset": 1247
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.learn"
+          }
+        }
+      ],
+      "anchors": {
+        "react": {
+          "type": "header",
+          "text": "React",
+          "value": "react",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "functional-components-over-class": {
+          "type": "header",
+          "text": "Functional components over Class",
+          "value": "functional-components-over-class",
+          "line": 16,
+          "column": 0,
+          "depth": 2
+        },
+        "react-state-vs-props": {
+          "type": "header",
+          "text": "React State vs Props",
+          "value": "react-state-vs-props",
+          "line": 26,
+          "column": 0,
+          "depth": 2
+        },
+        "todo": {
+          "type": "header",
+          "text": "TODO",
+          "value": "todo",
+          "line": 32,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "8fp89ktw3fhi2p6bt35b5ju",
+      "data": {}
+    },
+    "8k7fj3knfjs2vz42yxldbzk": {
+      "id": "8k7fj3knfjs2vz42yxldbzk",
+      "title": "JavaScript",
+      "desc": "",
+      "updated": 1662226133532,
+      "created": 1648190780500,
+      "custom": {},
+      "fname": "notes.topic.javascript",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "1a7838bb3ba5f9947e9acf4ef3005b1a",
+      "links": [],
+      "anchors": {
+        "execution-context": {
+          "type": "header",
+          "text": "Execution context",
+          "value": "execution-context",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        },
+        "two-stages-of-execution-context": {
+          "type": "header",
+          "text": "Two stages of Execution context",
+          "value": "two-stages-of-execution-context",
+          "line": 20,
+          "column": 0,
+          "depth": 3
+        },
+        "two-types-of-execution-context": {
+          "type": "header",
+          "text": "Two types of execution context",
+          "value": "two-types-of-execution-context",
+          "line": 25,
+          "column": 0,
+          "depth": 3
+        },
+        "lexical-environment": {
+          "type": "header",
+          "text": "Lexical environment",
+          "value": "lexical-environment",
+          "line": 31,
+          "column": 0,
+          "depth": 2
+        },
+        "scope-chain": {
+          "type": "header",
+          "text": "Scope chain",
+          "value": "scope-chain",
+          "line": 40,
+          "column": 0,
+          "depth": 2
+        },
+        "block": {
+          "type": "header",
+          "text": "Block",
+          "value": "block",
+          "line": 46,
+          "column": 0,
+          "depth": 2
+        },
+        "let-and-const": {
+          "type": "header",
+          "text": "let and const",
+          "value": "let-and-const",
+          "line": 51,
+          "column": 0,
+          "depth": 2
+        },
+        "closure": {
+          "type": "header",
+          "text": "closure",
+          "value": "closure",
+          "line": 58,
+          "column": 0,
+          "depth": 2
+        },
+        "hoisting": {
+          "type": "header",
+          "text": "Hoisting",
+          "value": "hoisting",
+          "line": 62,
+          "column": 0,
+          "depth": 2
+        },
+        "takeaways": {
+          "type": "header",
+          "text": "Takeaways",
+          "value": "takeaways",
+          "line": 71,
+          "column": 0,
+          "depth": 3
+        },
+        "difference-between-arrow-function-and-normal-function": {
+          "type": "header",
+          "text": "Difference between arrow function and normal function",
+          "value": "difference-between-arrow-function-and-normal-function",
+          "line": 76,
+          "column": 0,
+          "depth": 2
+        },
+        "call-bind-apply": {
+          "type": "header",
+          "text": "Call, bind, apply",
+          "value": "call-bind-apply",
+          "line": 95,
+          "column": 0,
+          "depth": 2
+        },
+        "call": {
+          "type": "header",
+          "text": "Call",
+          "value": "call",
+          "line": 97,
+          "column": 0,
+          "depth": 3
+        },
+        "bind": {
+          "type": "header",
+          "text": "bind",
+          "value": "bind",
+          "line": 102,
+          "column": 0,
+          "depth": 3
+        },
+        "currying": {
+          "type": "header",
+          "text": "Currying",
+          "value": "currying",
+          "line": 129,
+          "column": 0,
+          "depth": 2
+        },
+        "imp-interview-ques": {
+          "type": "header",
+          "text": "imp interview ques",
+          "value": "imp-interview-ques",
+          "line": 152,
+          "column": 0,
+          "depth": 3
+        },
+        "debounce": {
+          "type": "header",
+          "text": "Debounce",
+          "value": "debounce",
+          "line": 155,
+          "column": 0,
+          "depth": 2
+        },
+        "this": {
+          "type": "header",
+          "text": "this",
+          "value": "this",
+          "line": 159,
+          "column": 0,
+          "depth": 2
+        },
+        "event-propagation": {
+          "type": "header",
+          "text": "Event Propagation",
+          "value": "event-propagation",
+          "line": 164,
+          "column": 0,
+          "depth": 2
+        },
+        "async-vs-defer": {
+          "type": "header",
+          "text": "Async vs defer",
+          "value": "async-vs-defer",
+          "line": 176,
+          "column": 0,
+          "depth": 2
+        },
+        "defer": {
+          "type": "header",
+          "text": "Defer",
+          "value": "defer",
+          "line": 178,
+          "column": 0,
+          "depth": 3
+        },
+        "folder-structure": {
+          "type": "header",
+          "text": "Folder structure",
+          "value": "folder-structure",
+          "line": 198,
+          "column": 0,
+          "depth": 2
+        },
+        "fundamentals": {
+          "type": "header",
+          "text": "Fundamentals",
+          "value": "fundamentals",
+          "line": 206,
+          "column": 0,
+          "depth": 2
+        },
+        "array-methods": {
+          "type": "header",
+          "text": "Array Methods",
+          "value": "array-methods",
+          "line": 211,
+          "column": 0,
+          "depth": 2
+        },
+        "reduce": {
+          "type": "header",
+          "text": "reduce",
+          "value": "reduce",
+          "line": 212,
+          "column": 0,
+          "depth": 3
+        },
+        "polyfill-for-map": {
+          "type": "header",
+          "text": "polyfill for map",
+          "value": "polyfill-for-map",
+          "line": 230,
+          "column": 0,
+          "depth": 3
+        },
+        "promise": {
+          "type": "header",
+          "text": "Promise",
+          "value": "promise",
+          "line": 244,
+          "column": 0,
+          "depth": 2
+        },
+        "promiseall": {
+          "type": "header",
+          "text": "Promise.all",
+          "value": "promiseall",
+          "line": 269,
+          "column": 0,
+          "depth": 3
+        },
+        "callback-hell": {
+          "type": "header",
+          "text": "Callback hell",
+          "value": "callback-hell",
+          "line": 273,
+          "column": 0,
+          "depth": 2
+        },
+        "ariety": {
+          "type": "header",
+          "text": "Ariety",
+          "value": "ariety",
+          "line": 281,
+          "column": 0,
+          "depth": 2
+        },
+        "prototypical-ineritence": {
+          "type": "header",
+          "text": "Prototypical Ineritence",
+          "value": "prototypical-ineritence",
+          "line": 300,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "y1ng2qxm7ukl5sce22whs3d"
+      ],
+      "parent": "trkx8xrg7g2fm023ez4ldqj",
+      "data": {}
+    },
+    "y1ng2qxm7ukl5sce22whs3d": {
+      "id": "y1ng2qxm7ukl5sce22whs3d",
+      "title": "Performance",
+      "desc": "",
+      "updated": 1658248722733,
+      "created": 1657371770600,
+      "custom": {},
+      "fname": "notes.topic.javascript.performance",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "4f548a65ab7b4f07d1201f00ff4fa79b",
+      "links": [],
+      "anchors": {
+        "memoization": {
+          "type": "header",
+          "text": "Memoization",
+          "value": "memoization",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "rate-limiting": {
+          "type": "header",
+          "text": "Rate Limiting",
+          "value": "rate-limiting",
+          "line": 13,
+          "column": 0,
+          "depth": 1
+        },
+        "debouncing": {
+          "type": "header",
+          "text": "Debouncing",
+          "value": "debouncing",
+          "line": 15,
+          "column": 0,
+          "depth": 2
+        },
+        "create-debounce-fun-from-scratch": {
+          "type": "header",
+          "text": "Create debounce fun from scratch",
+          "value": "create-debounce-fun-from-scratch",
+          "line": 21,
+          "column": 0,
+          "depth": 3
+        },
+        "throttling": {
+          "type": "header",
+          "text": "Throttling",
+          "value": "throttling",
+          "line": 40,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "8k7fj3knfjs2vz42yxldbzk",
+      "data": {}
+    },
+    "8065ff8i49o4xwg1za7tgro": {
+      "id": "8065ff8i49o4xwg1za7tgro",
+      "title": "Algo",
+      "desc": "",
+      "updated": 1650870501456,
+      "created": 1650870488071,
+      "custom": {},
+      "fname": "notes.topic.algo",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "631344a62f00af83e78f0531d984b3d1",
+      "links": [],
+      "anchors": {
+        "binary-search-tree": {
+          "type": "header",
+          "text": "Binary Search Tree",
+          "value": "binary-search-tree",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "avl-tree": {
+          "type": "header",
+          "text": "AVL Tree",
+          "value": "avl-tree",
+          "line": 22,
+          "column": 0,
+          "depth": 2
+        },
+        "graph-algos": {
+          "type": "header",
+          "text": "Graph Algos",
+          "value": "graph-algos",
+          "line": 25,
+          "column": 0,
+          "depth": 2
+        },
+        "creating-adjacency-list": {
+          "type": "header",
+          "text": "Creating adjacency list",
+          "value": "creating-adjacency-list",
+          "line": 28,
+          "column": 0,
+          "depth": 3
+        },
+        "dfs": {
+          "type": "header",
+          "text": "DFS",
+          "value": "dfs",
+          "line": 54,
+          "column": 0,
+          "depth": 3
+        },
+        "bfs": {
+          "type": "header",
+          "text": "BFS",
+          "value": "bfs",
+          "line": 75,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "j9jpiepog4v2wpio08om6ng"
+      ],
+      "parent": "trkx8xrg7g2fm023ez4ldqj",
+      "data": {}
+    },
+    "j9jpiepog4v2wpio08om6ng": {
+      "id": "j9jpiepog4v2wpio08om6ng",
+      "title": "Big O Notation",
+      "desc": "",
+      "updated": 1650870764685,
+      "created": 1650870508413,
+      "custom": {},
+      "fname": "notes.topic.algo.bigO",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "090d43f1262e570ebe59167472b9cf1c",
+      "links": [],
+      "anchors": {
+        "example": {
+          "type": "header",
+          "text": "Example",
+          "value": "example",
+          "line": 11,
+          "column": 0,
+          "depth": 2
+        },
+        "sum-of-a-numbers-till-n": {
+          "type": "header",
+          "text": "Sum of a numbers till n",
+          "value": "sum-of-a-numbers-till-n",
+          "line": 13,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "8065ff8i49o4xwg1za7tgro",
+      "data": {}
+    },
+    "fkhev0yr0bbwd3x499erqqp": {
+      "id": "fkhev0yr0bbwd3x499erqqp",
+      "title": "Graph",
+      "desc": "",
+      "updated": 1650477942640,
+      "created": 1650477942640,
+      "custom": {},
+      "fname": "graph",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "43802c6f5419adeabedf970b87d89297",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "fzsp4607gkl9txg1i27arw2"
+      ],
+      "parent": "dlb5bmx7v8f6otsgongz4vx",
+      "data": {}
+    },
+    "fzsp4607gkl9txg1i27arw2": {
+      "id": "fzsp4607gkl9txg1i27arw2",
+      "title": "Styles",
+      "desc": "",
+      "updated": 1650477945981,
+      "created": 1650477942624,
+      "custom": {},
+      "fname": "graph.styles",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "4a804fa29cb6b9b7429c42cee6ee684b",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "graph.styles",
+            "id": "fzsp4607gkl9txg1i27arw2",
+            "vaultName": "learning-notes"
+          },
+          "value": "tags.AC2065",
+          "alias": "#AC2065",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 23,
+              "offset": 52
+            },
+            "end": {
+              "line": 5,
+              "column": 30,
+              "offset": 59
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.AC2065"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "graph.styles",
+            "id": "fzsp4607gkl9txg1i27arw2",
+            "vaultName": "learning-notes"
+          },
+          "value": "tags.AC2065",
+          "alias": "#AC2065",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 12,
+              "offset": 72
+            },
+            "end": {
+              "line": 6,
+              "column": 19,
+              "offset": 79
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "tags.AC2065"
+          }
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "fkhev0yr0bbwd3x499erqqp",
+      "data": {}
+    }
+  },
+  "domains": [
+    {
+      "id": "dlb5bmx7v8f6otsgongz4vx",
+      "title": "Root",
+      "desc": "",
+      "updated": 1655025026733,
+      "created": 1648190029829,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": "dependencies/localhost/learning-notes",
+        "selfContained": true,
+        "name": "learning-notes",
+        "sync": "sync"
+      },
+      "contentHash": "bc178ae9d620304b10fedbadacbc746f",
+      "links": [],
+      "anchors": {
+        "learning": {
+          "type": "header",
+          "text": "Learning",
+          "value": "learning",
+          "line": 7,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [
+        "fkhev0yr0bbwd3x499erqqp",
+        "trkx8xrg7g2fm023ez4ldqj",
+        "5mg2j4msjvokz541h0tdvni",
+        "c8csxid3zoghxorepwcrami",
+        "twdastnk7qsdzm0wt64i6cz",
+        "c31i1fsmoluyjb7iffcjabg",
+        "v6w7qcvk7gmeht0j9xzdtbd",
+        "cev4vzt27wi2rjm3znxgwkl",
+        "984qz0r52n001q7yxhrh1sm"
+      ],
+      "parent": null,
+      "data": {},
+      "body": "# Learning\n\nThis vault contains my study notes\n"
+    }
+  ],
+  "noteIndex": {
+    "id": "dlb5bmx7v8f6otsgongz4vx",
+    "title": "Root",
+    "desc": "",
+    "updated": 1655025026733,
+    "created": 1648190029829,
+    "custom": {
+      "nav_order": 0,
+      "permalink": "/"
+    },
+    "fname": "root",
+    "type": "note",
+    "vault": {
+      "fsPath": "dependencies/localhost/learning-notes",
+      "selfContained": true,
+      "name": "learning-notes",
+      "sync": "sync"
+    },
+    "contentHash": "bc178ae9d620304b10fedbadacbc746f",
+    "links": [],
+    "anchors": {
+      "learning": {
+        "type": "header",
+        "text": "Learning",
+        "value": "learning",
+        "line": 7,
+        "column": 0,
+        "depth": 1
+      }
+    },
+    "children": [
+      "fkhev0yr0bbwd3x499erqqp",
+      "trkx8xrg7g2fm023ez4ldqj",
+      "5mg2j4msjvokz541h0tdvni",
+      "c8csxid3zoghxorepwcrami",
+      "twdastnk7qsdzm0wt64i6cz",
+      "c31i1fsmoluyjb7iffcjabg",
+      "v6w7qcvk7gmeht0j9xzdtbd",
+      "cev4vzt27wi2rjm3znxgwkl",
+      "984qz0r52n001q7yxhrh1sm"
+    ],
+    "parent": null,
+    "data": {},
+    "body": "# Learning\n\nThis vault contains my study notes\n"
+  },
+  "vaults": [
+    {
+      "fsPath": "dependencies/localhost/journal",
+      "selfContained": true,
+      "name": "journal"
+    },
+    {
+      "fsPath": "dependencies/localhost/learning-notes",
+      "selfContained": true,
+      "name": "learning-notes",
+      "sync": "sync"
+    },
+    {
+      "fsPath": "dependencies/localhost/mindfire-solutions",
+      "selfContained": true,
+      "name": "mindfire-solutions"
+    }
+  ]
+}

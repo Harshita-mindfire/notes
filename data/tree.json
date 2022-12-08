@@ -1,0 +1,1021 @@
+{
+  "roots": [
+    {
+      "key": "dlb5bmx7v8f6otsgongz4vx",
+      "title": "Root",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "learning-notes",
+      "navExclude": false,
+      "children": [
+        {
+          "key": "984qz0r52n001q7yxhrh1sm",
+          "title": "Dendron",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "learning-notes",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "xq7wx7wllpenpg9t6k533ls",
+              "title": "Wip",
+              "icon": "plusOutlined",
+              "hasTitleNumberOutlined": false,
+              "vaultName": "learning-notes",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "te3qp2uqqudqkc2q7fvnah8",
+                  "title": "Codefile",
+                  "icon": "plusOutlined",
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "qqv79sye4fs67kidfr5hr9b",
+                      "title": "deleteCmd",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "learning-notes",
+                      "navExclude": false,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "twdastnk7qsdzm0wt64i6cz",
+          "title": "Fitness",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "learning-notes",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "z2fyulim4zbxh25piye97c1",
+              "title": "Arms and Biceps",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "learning-notes",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "stww0cea9p2cyovpdydx209",
+              "title": "Pushups",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "learning-notes",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "9ox5xb6973p7bka4mlf85kl",
+              "title": "Yoga",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "learning-notes",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "fkhev0yr0bbwd3x499erqqp",
+          "title": "Graph",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "learning-notes",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "fzsp4607gkl9txg1i27arw2",
+              "title": "Styles",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "learning-notes",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "5mg2j4msjvokz541h0tdvni",
+          "title": "Home",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "learning-notes",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "c95a3sws41a5krichcj7z3r",
+              "title": "Fitness",
+              "icon": "plusOutlined",
+              "hasTitleNumberOutlined": false,
+              "vaultName": "learning-notes",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "z2fyulim4zbxh25piye97c1",
+                  "title": "Arms and Biceps",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "stww0cea9p2cyovpdydx209",
+                  "title": "Pushups",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "9ox5xb6973p7bka4mlf85kl",
+                  "title": "Yoga",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "c8csxid3zoghxorepwcrami",
+              "title": "Reading",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "learning-notes",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "c4ezac61gerrgf7k5zr4jfe",
+                  "title": "1984",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "eq5bxorcagijzo7xovo3cpv",
+                  "title": "Ram",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "rpk72eqiykyp7qbtm07toik",
+                  "title": "The Lean Startup",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "7nwcffq2pkzuxj9qsjfj0he",
+                  "title": "The Seven Husband of Evelyn Hugo",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "3frnz4fpts8msksl1qcs9r1",
+                  "title": "You Dont Know JS",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "trkx8xrg7g2fm023ez4ldqj",
+              "title": "Topic",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "learning-notes",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "8065ff8i49o4xwg1za7tgro",
+                  "title": "Algo",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "j9jpiepog4v2wpio08om6ng",
+                      "title": "Big O Notation",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "learning-notes",
+                      "navExclude": false,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "uvev3r9r93oary0cg0m5cwd",
+                  "title": "CSS",
+                  "icon": "plusOutlined",
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "5shqmwqivatr06oasv480ni",
+                      "title": "Flex Box",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "learning-notes",
+                      "navExclude": false,
+                      "children": []
+                    },
+                    {
+                      "key": "9hwfp65pm5gvegngk1hf68w",
+                      "title": "Position",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "learning-notes",
+                      "navExclude": false,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "219gobkt9f3zuf736goeih6",
+                  "title": "Dsa",
+                  "icon": "plusOutlined",
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "yyyjeii77vfw4lvvc9qwvdj",
+                      "title": "Leetcode",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "learning-notes",
+                      "navExclude": false,
+                      "children": []
+                    },
+                    {
+                      "key": "cqa4ysgqx8jgelbxs3fo9ts",
+                      "title": "Resource",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "learning-notes",
+                      "navExclude": false,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "wxghq6i5x2ruzqo5x7rygqo",
+                  "title": "Eng",
+                  "icon": "plusOutlined",
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "n1qbtmebkpgn077clry44hb",
+                      "title": "Grammer",
+                      "icon": "plusOutlined",
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "learning-notes",
+                      "navExclude": false,
+                      "children": [
+                        {
+                          "key": "6ybahqmiv067devbcos5nvh",
+                          "title": "Preposition",
+                          "icon": null,
+                          "hasTitleNumberOutlined": false,
+                          "vaultName": "learning-notes",
+                          "navExclude": false,
+                          "children": [
+                            {
+                              "key": "v4ad8r132ptysursrp7cjhz",
+                              "title": "Arrive at or In",
+                              "icon": null,
+                              "hasTitleNumberOutlined": false,
+                              "vaultName": "learning-notes",
+                              "navExclude": false,
+                              "children": []
+                            },
+                            {
+                              "key": "3tl5ts2r5je44kzdi565jnj",
+                              "title": "Time at on In",
+                              "icon": null,
+                              "hasTitleNumberOutlined": false,
+                              "vaultName": "learning-notes",
+                              "navExclude": false,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "key": "quto3oii6jktl7s3f49ojtk",
+                      "title": "Vocab",
+                      "icon": "plusOutlined",
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "learning-notes",
+                      "navExclude": false,
+                      "children": [
+                        {
+                          "key": "qvw8cjqjtctws3gtjrn9g53",
+                          "title": "Meanings",
+                          "icon": null,
+                          "hasTitleNumberOutlined": false,
+                          "vaultName": "learning-notes",
+                          "navExclude": false,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "8k7fj3knfjs2vz42yxldbzk",
+                  "title": "JavaScript",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "y1ng2qxm7ukl5sce22whs3d",
+                      "title": "Performance",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "learning-notes",
+                      "navExclude": false,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "8fp89ktw3fhi2p6bt35b5ju",
+                  "title": "React",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "ni4mv17f04ieqk6sxn02o77",
+                      "title": "Fundamentals",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "learning-notes",
+                      "navExclude": false,
+                      "children": []
+                    },
+                    {
+                      "key": "oca8al9dg5b5wstqa8xcz7b",
+                      "title": "Performance",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "learning-notes",
+                      "navExclude": false,
+                      "children": []
+                    },
+                    {
+                      "key": "umwm8usngvk782y69tckzi1",
+                      "title": "Query",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "learning-notes",
+                      "navExclude": false,
+                      "children": []
+                    },
+                    {
+                      "key": "m4ow149on5nzr7y0h39r5oc",
+                      "title": "Router",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "learning-notes",
+                      "navExclude": false,
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "key": "f5le3rs98wmsd3hn55xqtdf",
+                  "title": "Saas",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "qni9fshnce32rhoxta4na21",
+                  "title": "Web",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "z34vf2zj27tr4j9219ze4c4",
+                      "title": "Web Vitals",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "learning-notes",
+                      "navExclude": false,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "cev4vzt27wi2rjm3znxgwkl",
+          "title": "Learning",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "learning-notes",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "spb7nh15wevv5pbksyulihq",
+              "title": "CSS",
+              "icon": "plusOutlined",
+              "hasTitleNumberOutlined": false,
+              "vaultName": "learning-notes",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "5shqmwqivatr06oasv480ni",
+                  "title": "Flex Box",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "9hwfp65pm5gvegngk1hf68w",
+                  "title": "Position",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "z4sgfhwkw1oec6zns62si5o",
+              "title": "Dsa",
+              "icon": "plusOutlined",
+              "hasTitleNumberOutlined": false,
+              "vaultName": "learning-notes",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "yyyjeii77vfw4lvvc9qwvdj",
+                  "title": "Leetcode",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "cqa4ysgqx8jgelbxs3fo9ts",
+                  "title": "Resource",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "2kl4uby2xz8xsy8o6xupl0t",
+              "title": "Eng",
+              "icon": "plusOutlined",
+              "hasTitleNumberOutlined": false,
+              "vaultName": "learning-notes",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "hjgrq91537kuifrh4za6mjn",
+                  "title": "Grammer",
+                  "icon": "plusOutlined",
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "6ybahqmiv067devbcos5nvh",
+                      "title": "Preposition",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "learning-notes",
+                      "navExclude": false,
+                      "children": [
+                        {
+                          "key": "v4ad8r132ptysursrp7cjhz",
+                          "title": "Arrive at or In",
+                          "icon": null,
+                          "hasTitleNumberOutlined": false,
+                          "vaultName": "learning-notes",
+                          "navExclude": false,
+                          "children": []
+                        },
+                        {
+                          "key": "3tl5ts2r5je44kzdi565jnj",
+                          "title": "Time at on In",
+                          "icon": null,
+                          "hasTitleNumberOutlined": false,
+                          "vaultName": "learning-notes",
+                          "navExclude": false,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "i3zo8h6ygp5kt920mjt28vl",
+                  "title": "Vocab",
+                  "icon": "plusOutlined",
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "qvw8cjqjtctws3gtjrn9g53",
+                      "title": "Meanings",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "learning-notes",
+                      "navExclude": false,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "c8csxid3zoghxorepwcrami",
+          "title": "Reading",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "learning-notes",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "c4ezac61gerrgf7k5zr4jfe",
+              "title": "1984",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "learning-notes",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "eq5bxorcagijzo7xovo3cpv",
+              "title": "Ram",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "learning-notes",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "rpk72eqiykyp7qbtm07toik",
+              "title": "The Lean Startup",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "learning-notes",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "7nwcffq2pkzuxj9qsjfj0he",
+              "title": "The Seven Husband of Evelyn Hugo",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "learning-notes",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "3frnz4fpts8msksl1qcs9r1",
+              "title": "You Dont Know JS",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "learning-notes",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "c31i1fsmoluyjb7iffcjabg",
+          "title": "Reading",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "learning-notes",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "c4ezac61gerrgf7k5zr4jfe",
+              "title": "1984",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "learning-notes",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "mffn9vpfm1au1w8nf96h7c6",
+              "title": "Ram",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "learning-notes",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "rpk72eqiykyp7qbtm07toik",
+              "title": "The Lean Startup",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "learning-notes",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "7nwcffq2pkzuxj9qsjfj0he",
+              "title": "The Seven Husband of Evelyn Hugo",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "learning-notes",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "3frnz4fpts8msksl1qcs9r1",
+              "title": "You Dont Know JS",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "learning-notes",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "trkx8xrg7g2fm023ez4ldqj",
+          "title": "Topic",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "learning-notes",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "8065ff8i49o4xwg1za7tgro",
+              "title": "Algo",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "learning-notes",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "j9jpiepog4v2wpio08om6ng",
+                  "title": "Big O Notation",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "uvev3r9r93oary0cg0m5cwd",
+              "title": "CSS",
+              "icon": "plusOutlined",
+              "hasTitleNumberOutlined": false,
+              "vaultName": "learning-notes",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "5shqmwqivatr06oasv480ni",
+                  "title": "Flex Box",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "9hwfp65pm5gvegngk1hf68w",
+                  "title": "Position",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "219gobkt9f3zuf736goeih6",
+              "title": "Dsa",
+              "icon": "plusOutlined",
+              "hasTitleNumberOutlined": false,
+              "vaultName": "learning-notes",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "yyyjeii77vfw4lvvc9qwvdj",
+                  "title": "Leetcode",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "cqa4ysgqx8jgelbxs3fo9ts",
+                  "title": "Resource",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "wxghq6i5x2ruzqo5x7rygqo",
+              "title": "Eng",
+              "icon": "plusOutlined",
+              "hasTitleNumberOutlined": false,
+              "vaultName": "learning-notes",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "n1qbtmebkpgn077clry44hb",
+                  "title": "Grammer",
+                  "icon": "plusOutlined",
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "6ybahqmiv067devbcos5nvh",
+                      "title": "Preposition",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "learning-notes",
+                      "navExclude": false,
+                      "children": [
+                        {
+                          "key": "v4ad8r132ptysursrp7cjhz",
+                          "title": "Arrive at or In",
+                          "icon": null,
+                          "hasTitleNumberOutlined": false,
+                          "vaultName": "learning-notes",
+                          "navExclude": false,
+                          "children": []
+                        },
+                        {
+                          "key": "3tl5ts2r5je44kzdi565jnj",
+                          "title": "Time at on In",
+                          "icon": null,
+                          "hasTitleNumberOutlined": false,
+                          "vaultName": "learning-notes",
+                          "navExclude": false,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "quto3oii6jktl7s3f49ojtk",
+                  "title": "Vocab",
+                  "icon": "plusOutlined",
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": [
+                    {
+                      "key": "qvw8cjqjtctws3gtjrn9g53",
+                      "title": "Meanings",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "learning-notes",
+                      "navExclude": false,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "8k7fj3knfjs2vz42yxldbzk",
+              "title": "JavaScript",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "learning-notes",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "y1ng2qxm7ukl5sce22whs3d",
+                  "title": "Performance",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "8fp89ktw3fhi2p6bt35b5ju",
+              "title": "React",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "learning-notes",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "ni4mv17f04ieqk6sxn02o77",
+                  "title": "Fundamentals",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "oca8al9dg5b5wstqa8xcz7b",
+                  "title": "Performance",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "umwm8usngvk782y69tckzi1",
+                  "title": "Query",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": []
+                },
+                {
+                  "key": "m4ow149on5nzr7y0h39r5oc",
+                  "title": "Router",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "f5le3rs98wmsd3hn55xqtdf",
+              "title": "Saas",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "learning-notes",
+              "navExclude": false,
+              "children": []
+            },
+            {
+              "key": "qni9fshnce32rhoxta4na21",
+              "title": "Web",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "learning-notes",
+              "navExclude": false,
+              "children": [
+                {
+                  "key": "z34vf2zj27tr4j9219ze4c4",
+                  "title": "Web Vitals",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "learning-notes",
+                  "navExclude": false,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "v6w7qcvk7gmeht0j9xzdtbd",
+          "title": "Tags",
+          "icon": "numberOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "learning-notes",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "gnxywb70sldsrsabn47cn3z",
+              "title": "Learn",
+              "icon": null,
+              "hasTitleNumberOutlined": true,
+              "vaultName": "learning-notes",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "child2parent": {
+    "403": null,
+    "dlb5bmx7v8f6otsgongz4vx": null,
+    "984qz0r52n001q7yxhrh1sm": "dlb5bmx7v8f6otsgongz4vx",
+    "xq7wx7wllpenpg9t6k533ls": "984qz0r52n001q7yxhrh1sm",
+    "te3qp2uqqudqkc2q7fvnah8": "xq7wx7wllpenpg9t6k533ls",
+    "qqv79sye4fs67kidfr5hr9b": "te3qp2uqqudqkc2q7fvnah8",
+    "cev4vzt27wi2rjm3znxgwkl": "dlb5bmx7v8f6otsgongz4vx",
+    "2kl4uby2xz8xsy8o6xupl0t": "cev4vzt27wi2rjm3znxgwkl",
+    "i3zo8h6ygp5kt920mjt28vl": "2kl4uby2xz8xsy8o6xupl0t",
+    "qvw8cjqjtctws3gtjrn9g53": "quto3oii6jktl7s3f49ojtk",
+    "hjgrq91537kuifrh4za6mjn": "2kl4uby2xz8xsy8o6xupl0t",
+    "6ybahqmiv067devbcos5nvh": "n1qbtmebkpgn077clry44hb",
+    "3tl5ts2r5je44kzdi565jnj": "6ybahqmiv067devbcos5nvh",
+    "v4ad8r132ptysursrp7cjhz": "6ybahqmiv067devbcos5nvh",
+    "z4sgfhwkw1oec6zns62si5o": "cev4vzt27wi2rjm3znxgwkl",
+    "cqa4ysgqx8jgelbxs3fo9ts": "219gobkt9f3zuf736goeih6",
+    "yyyjeii77vfw4lvvc9qwvdj": "219gobkt9f3zuf736goeih6",
+    "spb7nh15wevv5pbksyulihq": "cev4vzt27wi2rjm3znxgwkl",
+    "9hwfp65pm5gvegngk1hf68w": "uvev3r9r93oary0cg0m5cwd",
+    "5shqmwqivatr06oasv480ni": "uvev3r9r93oary0cg0m5cwd",
+    "v6w7qcvk7gmeht0j9xzdtbd": "dlb5bmx7v8f6otsgongz4vx",
+    "gnxywb70sldsrsabn47cn3z": "v6w7qcvk7gmeht0j9xzdtbd",
+    "c31i1fsmoluyjb7iffcjabg": "dlb5bmx7v8f6otsgongz4vx",
+    "3frnz4fpts8msksl1qcs9r1": "c8csxid3zoghxorepwcrami",
+    "7nwcffq2pkzuxj9qsjfj0he": "c8csxid3zoghxorepwcrami",
+    "rpk72eqiykyp7qbtm07toik": "c8csxid3zoghxorepwcrami",
+    "mffn9vpfm1au1w8nf96h7c6": "c31i1fsmoluyjb7iffcjabg",
+    "c4ezac61gerrgf7k5zr4jfe": "c8csxid3zoghxorepwcrami",
+    "twdastnk7qsdzm0wt64i6cz": "dlb5bmx7v8f6otsgongz4vx",
+    "9ox5xb6973p7bka4mlf85kl": "c95a3sws41a5krichcj7z3r",
+    "stww0cea9p2cyovpdydx209": "c95a3sws41a5krichcj7z3r",
+    "z2fyulim4zbxh25piye97c1": "c95a3sws41a5krichcj7z3r",
+    "c8csxid3zoghxorepwcrami": "5mg2j4msjvokz541h0tdvni",
+    "eq5bxorcagijzo7xovo3cpv": "c8csxid3zoghxorepwcrami",
+    "5mg2j4msjvokz541h0tdvni": "dlb5bmx7v8f6otsgongz4vx",
+    "c95a3sws41a5krichcj7z3r": "5mg2j4msjvokz541h0tdvni",
+    "trkx8xrg7g2fm023ez4ldqj": "5mg2j4msjvokz541h0tdvni",
+    "wxghq6i5x2ruzqo5x7rygqo": "trkx8xrg7g2fm023ez4ldqj",
+    "quto3oii6jktl7s3f49ojtk": "wxghq6i5x2ruzqo5x7rygqo",
+    "n1qbtmebkpgn077clry44hb": "wxghq6i5x2ruzqo5x7rygqo",
+    "219gobkt9f3zuf736goeih6": "trkx8xrg7g2fm023ez4ldqj",
+    "uvev3r9r93oary0cg0m5cwd": "trkx8xrg7g2fm023ez4ldqj",
+    "qni9fshnce32rhoxta4na21": "trkx8xrg7g2fm023ez4ldqj",
+    "z34vf2zj27tr4j9219ze4c4": "qni9fshnce32rhoxta4na21",
+    "f5le3rs98wmsd3hn55xqtdf": "trkx8xrg7g2fm023ez4ldqj",
+    "8fp89ktw3fhi2p6bt35b5ju": "trkx8xrg7g2fm023ez4ldqj",
+    "m4ow149on5nzr7y0h39r5oc": "8fp89ktw3fhi2p6bt35b5ju",
+    "umwm8usngvk782y69tckzi1": "8fp89ktw3fhi2p6bt35b5ju",
+    "oca8al9dg5b5wstqa8xcz7b": "8fp89ktw3fhi2p6bt35b5ju",
+    "ni4mv17f04ieqk6sxn02o77": "8fp89ktw3fhi2p6bt35b5ju",
+    "8k7fj3knfjs2vz42yxldbzk": "trkx8xrg7g2fm023ez4ldqj",
+    "y1ng2qxm7ukl5sce22whs3d": "8k7fj3knfjs2vz42yxldbzk",
+    "8065ff8i49o4xwg1za7tgro": "trkx8xrg7g2fm023ez4ldqj",
+    "j9jpiepog4v2wpio08om6ng": "8065ff8i49o4xwg1za7tgro",
+    "fkhev0yr0bbwd3x499erqqp": "dlb5bmx7v8f6otsgongz4vx",
+    "fzsp4607gkl9txg1i27arw2": "fkhev0yr0bbwd3x499erqqp"
+  }
+}
